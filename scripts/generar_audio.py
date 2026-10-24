@@ -37,9 +37,9 @@ def azure(guion, tmp):
     if len(norm(a)) <= 25 < len(b):
         a, b = b, a
     key, region = a, norm(b) or "eastus"
-    print(f"Azure: región '{region}', clave de {len(key)} caracteres")
     if len(region) > 25:
         raise SystemExit("El secret AZURE_SPEECH_REGION no parece una región (debería ser algo como eastus).")
+    print(f"Azure: región {region}")
     voz, rate = CFG["azure"]["voz"], CFG["azure"].get("velocidad", "+0%")
     url = f"https://{region}.tts.speech.microsoft.com/cognitiveservices/v1"
     # bloques de varios párrafos, por debajo de los límites de una petición
