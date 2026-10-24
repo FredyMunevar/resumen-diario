@@ -6,5 +6,21 @@
     "url": "https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-10-22.mp3",
     "bytes": 2470992,
     "duracion": 352
+  },
+  {
+    "fecha": "2026-10-23",
+    "titulo": "Viernes 23 de octubre",
+    "descripcion": "Resumen del día en tecnología, diseño e inteligencia artificial.",
+    "url": "https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-10-23.mp3",
+    "bytes": 3989255,
+    "duracion": 569
+  },
+  {
+    "fecha": "2026-10-24",
+    "titulo": "Sábado 24 de octubre",
+    "descripcion": "Resumen del día en tecnología, diseño e inteligencia artificial.",
+    "url": "https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-10-24.mp3",
+    "bytes": 3325118,
+    "duracion": 474
   }
 ]
