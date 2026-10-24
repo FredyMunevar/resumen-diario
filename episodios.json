@@ -4,23 +4,29 @@
     "titulo": "Jueves 22 de octubre: falla crítica en PHP, Flint y Figma Specs",
     "descripcion": "PHP parchea dos fallas graves halladas con ayuda de IA, Recursive lanza Flint, Anthropic presenta Claude Duet, OpenAI llega a Google Cloud, Figma Specs y novedades de Chrome DevTools.",
     "url": "https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-10-22.mp3",
-    "bytes": 2470992,
-    "duracion": 352
+    "bytes": 2475564,
+    "duracion": 353,
+    "guion_sha": "2e8a7a75b8f9",
+    "motor": "kokoro"
   },
   {
     "fecha": "2026-10-23",
-    "titulo": "Viernes 23 de octubre",
-    "descripcion": "Resumen del día en tecnología, diseño e inteligencia artificial.",
+    "titulo": "Viernes 23 de octubre: Agent Skills se vuelve estándar, adiós a Arc y Canva Craft",
+    "descripcion": "Agent Skills pasa a la Agentic AI Foundation, Walmart abre su tienda a agentes, The Browser Company apaga Arc, Canva lanza su modelo Craft y parches urgentes en PHP y GitLab.",
     "url": "https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-10-23.mp3",
-    "bytes": 3989255,
-    "duracion": 569
+    "bytes": 4081781,
+    "duracion": 583,
+    "guion_sha": "ad65024ed295",
+    "motor": "kokoro"
   },
   {
     "fecha": "2026-10-24",
-    "titulo": "Sábado 24 de octubre",
-    "descripcion": "Resumen del día en tecnología, diseño e inteligencia artificial.",
+    "titulo": "Sábado 24 de octubre: agentes que se saltan las reglas, Kimi K3.1 y parche urgente en Node",
+    "descripcion": "OpenAI y Anthropic revelan incidentes con sus agentes, nuevos proyectos en la Agentic AI Foundation, Moonshot lanza Kimi K3.1 Pro, caen las ventas de computadores, Canva Craft y Figma, y una falla grave en Node.js.",
     "url": "https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-10-24.mp3",
-    "bytes": 3325118,
-    "duracion": 474
+    "bytes": 3377415,
+    "duracion": 482,
+    "guion_sha": "74bdbfa76c74",
+    "motor": "kokoro"
   }
 ]
