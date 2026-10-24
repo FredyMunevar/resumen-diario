@@ -12,4 +12,4 @@ También funciona en Pocket Casts, Overcast o cualquier app que acepte feeds RSS
 1. Se sube el guion a `guiones/AAAA-MM-DD.txt` (un párrafo por línea) con su `guiones/AAAA-MM-DD.json` (`titulo`, `descripcion`).
 2. La GitHub Action **Publicar episodios** genera el audio, lo guarda en `episodios/`, actualiza `episodios.json` y `feed.xml`, y despliega el sitio.
 
-La voz se genera con Azure Speech (voz colombiana, `config.json`) si existen los secrets `AZURE_SPEECH_KEY` y `AZURE_SPEECH_REGION`; si no, con Kokoro como respaldo.
+La voz se genera con Azure Speech (voz colombiana, `config.json`) si existe el secret `AZURE_SPEECH_KEY` (la región está en `config.json`); si no, con Kokoro como respaldo.

@@ -1,7 +1,8 @@
 {
   "azure": {
     "voz": "es-CO-GonzaloNeural",
-    "velocidad": "+4%"
+    "velocidad": "+4%",
+    "region": "eastus"
   },
   "kokoro": {
     "voz": "em_alex",

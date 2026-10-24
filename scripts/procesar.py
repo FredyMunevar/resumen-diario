@@ -18,7 +18,7 @@ import generar_audio, publicar_episodio
 
 ROOT = Path(__file__).resolve().parent.parent
 eps = {e["fecha"]: e for e in json.loads((ROOT / "episodios.json").read_text())} if (ROOT / "episodios.json").exists() else {}
-hay_azure = bool(os.environ.get("AZURE_SPEECH_KEY") and os.environ.get("AZURE_SPEECH_REGION"))
+hay_azure = bool(os.environ.get("AZURE_SPEECH_KEY"))
 hoy = datetime.date.today()
 todo = "--todo" in sys.argv
 hechos = []

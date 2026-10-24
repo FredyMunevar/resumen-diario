@@ -30,19 +30,9 @@ def ffmpeg(*args):
 # ---------- Azure Speech ----------
 
 def azure(guion, tmp):
-    a = os.environ["AZURE_SPEECH_KEY"].strip()
-    b = os.environ.get("AZURE_SPEECH_REGION", "").strip()
-    norm = lambda v: re.sub(r"[^a-z0-9]", "", v.lower().replace("(us)", ""))
-    # si los dos secrets quedaron invertidos, se acomodan solos
-    if len(norm(a)) <= 25 < len(b):
-        a, b = b, a
-    key, region = a, norm(b) or "eastus"
-    if len(region) > 25:
-        # diagnóstico seguro: solo longitudes, nunca valores
-        raise SystemExit(f"El secret AZURE_SPEECH_REGION no parece una región (debería ser algo como eastus). "
-                         f"Longitudes: región {len(os.environ.get('AZURE_SPEECH_REGION', ''))}, "
-                         f"clave {len(os.environ['AZURE_SPEECH_KEY'])}; iguales: "
-                         f"{os.environ.get('AZURE_SPEECH_REGION', '').strip() == os.environ['AZURE_SPEECH_KEY'].strip()}")
+    key = os.environ["AZURE_SPEECH_KEY"].strip()
+    # la región no es secreta: se toma de config.json
+    region = re.sub(r"[^a-z0-9]", "", CFG["azure"].get("region", "eastus").lower())
     print(f"Azure: región {region}")
     voz, rate = CFG["azure"]["voz"], CFG["azure"].get("velocidad", "+0%")
     url = f"https://{region}.tts.speech.microsoft.com/cognitiveservices/v1"
@@ -116,7 +106,7 @@ def main():
     guion, out = sys.argv[1], sys.argv[2]
     mdir = sys.argv[3] if len(sys.argv) > 3 else os.environ.get("KOKORO_DIR", str(ROOT / ".kokoro"))
     tmp = Path(tempfile.mkdtemp())
-    if os.environ.get("AZURE_SPEECH_KEY") and os.environ.get("AZURE_SPEECH_REGION"):
+    if os.environ.get("AZURE_SPEECH_KEY"):
         motor, voz = "azure", azure(guion, tmp)
     else:
         motor, voz = "kokoro", kokoro(guion, tmp, mdir)
