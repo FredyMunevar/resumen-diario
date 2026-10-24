@@ -1,3 +1,7 @@
-2026-10-24 13:06 UTC
+2026-10-24 13:08 UTC
 Azure configurado: si
-El secret AZURE_SPEECH_REGION no parece una región (debería ser algo como eastus). Longitudes: región 84, clave 84; iguales: False
+[aist#0:0/mp3 @ 0x56366e92acc0] Error submitting packet to decoder: Invalid data found when processing input
+    Last message repeated 7 times
+Azure: región eastus
+ok azure /home/runner/work/resumen-diario/resumen-diario/muestras/prueba_gonzalo.mp3
+Episodios procesados: muestra prueba_gonzalo (azure)
