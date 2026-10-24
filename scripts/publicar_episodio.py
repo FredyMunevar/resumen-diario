@@ -79,18 +79,22 @@ def construir_feed(eps):
 """
 
 
-def main():
-    fecha, mp3, titulo, descripcion = sys.argv[1:5]
+def publicar(fecha, mp3, titulo, descripcion, extra=None):
     archivo, url = subir(fecha, mp3)
     db = ROOT / "episodios.json"
     eps = json.loads(db.read_text()) if db.exists() else []
     eps = [e for e in eps if e["fecha"] != fecha]
     eps.append({"fecha": fecha, "titulo": titulo, "descripcion": descripcion, "url": url,
-                "bytes": os.path.getsize(archivo), "duracion": duracion(archivo)})
+                "bytes": os.path.getsize(archivo), "duracion": duracion(archivo), **(extra or {})})
     eps = limpiar(eps)
     db.write_text(json.dumps(sorted(eps, key=lambda x: x["fecha"]), ensure_ascii=False, indent=2) + "\n")
     (ROOT / "feed.xml").write_text(construir_feed(eps))
     print("ok", url)
+
+
+def main():
+    fecha, mp3, titulo, descripcion = sys.argv[1:5]
+    publicar(fecha, mp3, titulo, descripcion)
 
 
 if __name__ == "__main__":

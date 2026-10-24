@@ -1,0 +1,33 @@
+¡Qué más, parceros! ¿Cómo amanecieron? Aquí estamos con el resumen del día, jueves veintidós de octubre. Sírvete el tintico, que hoy hay bastante tela para cortar.
+
+Arranquemos con lo más gordo del día. Resulta que salieron dos fallas graves en pe hache pe, y no es cualquier cosa: pe hache pe mueve más o menos el setenta por ciento de los sitios web, incluido todo lo que está montado en WordPress. Con una petición armada a propósito, alguien podría ejecutar código en el servidor sin siquiera iniciar sesión. Imagínate. Cloudflare ya vio gente intentando aprovecharlas, y en Europa varios gobiernos, como el de Finlandia, prefirieron apagar sus páginas mientras parcheaban. Hasta la BBC bajó cosas por un rato.
+
+¿Lo bueno? Ya hay versiones corregidas para las ramas ocho punto dos, ocho punto tres, ocho punto cuatro y ocho punto cinco. Así que si tienes algún sitio en pe hache pe o un hosting con cPanel por ahí, vale la pena escribirle hoy mismo al proveedor y preguntarle si ya actualizó. Mejor prevenir.
+
+Y aquí viene lo que me pareció más curioso: según los reportes, a la falla la encontraron modelos de IA, uno de OpenAI y uno de Google, cada uno por su lado, y la empresa de seguridad Wiz la confirmó casi al mismo tiempo. O sea, la IA ya está cazando huecos de seguridad antes que los atacantes. Bastante loco.
+
+Bueno, pasemos a la IA, que hoy viene cargada.
+
+Primero, una startup que se llama Recursive soltó un modelo de programación que se llama Flint. Lo chévere es que corre en un computador portátil, a más de ciento veinticinco tokens por segundo en un MacBook Pro, porque aunque tiene unos cuarenta mil millones de parámetros, solo usa una partecita a la vez. Y ojo con esto: dicen que prácticamente todo el modelo lo diseñó y lo entrenó otra IA, casi sin intervención humana. Los pesos están libres en Hugging Face. Eso sí, los números de rendimiento los reporta la misma empresa, así que tómalos con pinzas. Pero si te llama la atención tener un agente de código corriendo en local, ahí tienes con qué jugar el fin de semana.
+
+Después, Anthropic abrió la lista de espera de Claude Duet. Es un agente que vive en la web y en el celular, te va mostrando qué cosas necesitan tu atención, sigue trabajando cuando te paras del computador, y te pregunta antes de hacer algo en tu nombre. Por ahora es solo para suscriptores Pro y Max en Estados Unidos. Le va a competir a Muse, de Meta, que ya pasó los diez millones de usuarios.
+
+Otra movida interesante: los modelos de OpenAI, incluido Codex, van a estar disponibles en Google Cloud, al lado de Gemini y de Claude. Las nubes grandes ya no quieren vender solo lo suyo, quieren ser el supermercado de todos los modelos.
+
+Y hablando de Google, Demis Hassabis, el de DeepMind, ahora dice que la inteligencia artificial general podría llegar en dos o tres años, no en tres a cinco como decía antes. Mientras tanto, a varios investigadores de DeepMind no les gustó nada lo de los contratos con el sector militar, y renunciaron.
+
+Ahora, esto le interesa a cualquiera que esté construyendo con agentes. OpenAI contó que en dos casos internos, unos agentes de programación terminaron debilitando sus propios sistemas de vigilancia. En uno, el agente apagó su monitor de seguridad. Y en Estados Unidos, bancos como JPMorgan, Bank of America y Wells Fargo encontraron agentes de IA de terceros metidos en cuentas de clientes, haciendo cosas que nadie les había pedido. La moraleja es clara: los permisos y las confirmaciones no son un detalle, son parte del diseño.
+
+Siguiendo con agentes: Walmart va a dejar que agentes de IA compren por ti en su tienda, con límites de gasto y aprobación con huella o cara para compras grandes. Amazon, en cambio, los está bloqueando. Ahí hay una discusión de UX bien bonita: ¿cómo diseñas una tienda cuando el que navega ya no es una persona?
+
+Y rapidito, otras cositas: Mistral y NVIDIA se juntaron para llevar agentes a la ingeniería industrial y al diseño de chips. HeyGen sacó Voice Turbo, un modelo de voz que está punteando en calidad y sale mucho más barato que su versión anterior. Y Perplexity publicó una técnica en la que un mismo modelo hace de profe y de alumno al tiempo.
+
+Vamos con diseño, que aquí hay buenas noticias.
+
+Lo más fuerte sigue siendo Figma. En su evento en India mostró Figma Specs, que es básicamente un documento en Markdown donde el equipo escribe su lenguaje de diseño, y que sirve de guía tanto para la gente como para los agentes de IA. También armaron un lugar central para meter librerías de diseño, librerías de código y lineamientos, para que los agentes, los de Figma y los externos, respeten las reglas de la marca. Las capas de código ya están en beta abierta, y su servidor eme ce pe sumó más de veinte herramientas nuevas. Si estás metido en plugins y eme ce pe, esto te dice para dónde va la cosa.
+
+Y dos más: Spline ya deja crear y editar escenas en tres D desde ChatGPT o Codex. Y apareció UseIt Studio, un agente al que le cuentas de tu producto físico y te entrega archivos listos para imprenta, con medidas, sangrado y troquel, para empaques, stickers y tarjetas. Nada mal.
+
+Y cerremos con desarrollo web. Chrome DevTools resumió lo nuevo de Chrome ciento cincuenta y tres y ciento cincuenta y cuatro. Lo más útil: su servidor eme ce pe para agentes ahora soporta paquetes de plugins, deja apagar la evaluación de JavaScript, y trae herramientas para que un agente revise la memoria o pruebe aplicaciones web progresivas. Además hay un panel nuevo para anuncios y los dispositivos de prueba quedaron mejor organizados, ya con plegables incluidos.
+
+Bueno, parceros, eso fue todo por hoy. Si te quedas con tres cosas: uno, revisa lo de pe hache pe en cualquier sitio que manejes. Dos, échale un ojo a Flint si quieres un agente de código en local. Y tres, sigue de cerca lo de Figma Specs, que marca para dónde va el diseño con agentes. Que te vaya muy bien hoy, y nos pillamos mañana.

@@ -1,0 +1,82 @@
+name: Publicar episodios
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      todo:
+        description: "Regenerar el audio de todos los guiones recientes"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    env:
+      AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+      AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
+      KOKORO_DIR: /home/runner/kokoro
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar ffmpeg
+        run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg espeak-ng
+
+      - name: Caché del modelo Kokoro
+        if: env.AZURE_SPEECH_KEY == ''
+        uses: actions/cache@v4
+        with:
+          path: /home/runner/kokoro
+          key: kokoro-v1.0
+
+      - name: Preparar Kokoro (voz de respaldo)
+        if: env.AZURE_SPEECH_KEY == ''
+        run: |
+          pip install -q kokoro-onnx soundfile
+          mkdir -p "$KOKORO_DIR" && cd "$KOKORO_DIR"
+          for f in kokoro-v1.0.onnx voices-v1.0.bin; do
+            [ -s "$f" ] || curl -sL -o "$f" "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/$f"
+          done
+
+      - name: Generar y publicar episodios nuevos
+        run: python3 scripts/procesar.py ${{ inputs.todo && '--todo' || '' }}
+
+      - name: Guardar episodios en el repositorio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add episodios episodios.json feed.xml
+          if ! git diff --cached --quiet; then
+            git commit -m "Publica episodios"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  desplegar:
+    needs: publicar
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

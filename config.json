@@ -1,5 +1,10 @@
 {
-  "voz": "em_alex",
-  "velocidad": 1.08,
-  "musica": false
+  "azure": {
+    "voz": "es-CO-GonzaloNeural",
+    "velocidad": "+4%"
+  },
+  "kokoro": {
+    "voz": "em_alex",
+    "velocidad": 1.08
+  }
 }
