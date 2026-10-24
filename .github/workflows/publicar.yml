@@ -53,13 +53,19 @@ jobs:
           done
 
       - name: Generar y publicar episodios nuevos
-        run: python3 scripts/procesar.py ${{ inputs.todo && '--todo' || '' }}
+        run: |
+          set -o pipefail
+          date -u +"%Y-%m-%d %H:%M UTC" > estado.txt
+          echo "Azure configurado: $([ -n "$AZURE_SPEECH_KEY" ] && echo si || echo no)" >> estado.txt
+          python3 scripts/procesar.py ${{ inputs.todo && '--todo' || '' }} 2>&1 | tee -a estado.txt
 
       - name: Guardar episodios en el repositorio
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add episodios episodios.json feed.xml
+          git add episodios episodios.json feed.xml estado.txt
+          [ -d muestras ] && git add muestras
           if ! git diff --cached --quiet; then
             git commit -m "Publica episodios"
             git push
