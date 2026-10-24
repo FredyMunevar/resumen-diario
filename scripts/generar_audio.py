@@ -46,7 +46,7 @@ def azure(guion, tmp):
         bloques.append(actual)
     piezas = []
     for i, b in enumerate(bloques):
-        cuerpo = '<break time="650ms"/>'.join(escape(p) for p in b)
+        cuerpo = '<break time="450ms"/>'.join(escape(p) for p in b)
         ssml = (f'<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="es-CO">'
                 f'<voice name="{voz}"><prosody rate="{rate}">{cuerpo}</prosody></voice></speak>')
         req = urllib.request.Request(url, data=ssml.encode("utf-8"), method="POST", headers={
@@ -62,11 +62,13 @@ def azure(guion, tmp):
             except urllib.error.HTTPError as e:
                 if intento == 2 or e.code not in (429, 500, 502, 503):
                     raise SystemExit(f"Azure respondió {e.code}: {e.read()[:300]!r}")
-        pieza = tmp / f"az{i:03d}.mp3"
-        pieza.write_bytes(data)
+        crudo = tmp / f"az{i:03d}.mp3"
+        crudo.write_bytes(data)
+        pieza = tmp / f"az{i:03d}.wav"  # se pasa a WAV para unir sin errores de decodificación
+        ffmpeg("-i", crudo, "-ar", "24000", "-ac", "1", pieza)
         piezas.append(pieza)
     pausa = tmp / "pausa.wav"
-    ffmpeg("-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", "0.65", pausa)
+    ffmpeg("-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", "0.5", pausa)
     lista = tmp / "lista.txt"
     lista.write_text("".join(f"file '{p}'\nfile '{pausa}'\n" for p in piezas))
     salida = tmp / "voz_m.wav"
