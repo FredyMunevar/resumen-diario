@@ -38,7 +38,11 @@ def azure(guion, tmp):
         a, b = b, a
     key, region = a, norm(b) or "eastus"
     if len(region) > 25:
-        raise SystemExit("El secret AZURE_SPEECH_REGION no parece una región (debería ser algo como eastus).")
+        # diagnóstico seguro: solo longitudes, nunca valores
+        raise SystemExit(f"El secret AZURE_SPEECH_REGION no parece una región (debería ser algo como eastus). "
+                         f"Longitudes: región {len(os.environ.get('AZURE_SPEECH_REGION', ''))}, "
+                         f"clave {len(os.environ['AZURE_SPEECH_KEY'])}; iguales: "
+                         f"{os.environ.get('AZURE_SPEECH_REGION', '').strip() == os.environ['AZURE_SPEECH_KEY'].strip()}")
     print(f"Azure: región {region}")
     voz, rate = CFG["azure"]["voz"], CFG["azure"].get("velocidad", "+0%")
     url = f"https://{region}.tts.speech.microsoft.com/cognitiveservices/v1"
