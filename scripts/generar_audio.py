@@ -30,7 +30,9 @@ def ffmpeg(*args):
 # ---------- Azure Speech ----------
 
 def azure(guion, tmp):
-    key, region = os.environ["AZURE_SPEECH_KEY"], os.environ["AZURE_SPEECH_REGION"]
+    key = os.environ["AZURE_SPEECH_KEY"].strip()
+    # tolera valores como "East US", "(US) East US" o con saltos de línea
+    region = re.sub(r"[^a-z0-9]", "", os.environ.get("AZURE_SPEECH_REGION", "").lower().replace("(us)", "")) or "eastus"
     voz, rate = CFG["azure"]["voz"], CFG["azure"].get("velocidad", "+0%")
     url = f"https://{region}.tts.speech.microsoft.com/cognitiveservices/v1"
     # bloques de varios párrafos, por debajo de los límites de una petición
