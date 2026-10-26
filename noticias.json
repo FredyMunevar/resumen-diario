@@ -1,0 +1,290 @@
+[
+ {
+  "fecha": "2026-10-22",
+  "tema": "Fallas críticas en PHP (PHP2Shell) halladas con ayuda de IA"
+ },
+ {
+  "fecha": "2026-10-22",
+  "tema": "Recursive lanza Flint, modelo de código hecho casi todo por IA"
+ },
+ {
+  "fecha": "2026-10-22",
+  "tema": "Anthropic presenta Claude Duet"
+ },
+ {
+  "fecha": "2026-10-22",
+  "tema": "Modelos de OpenAI llegan a Google Cloud"
+ },
+ {
+  "fecha": "2026-10-22",
+  "tema": "Hassabis acorta su predicción de AGI a dos o tres años"
+ },
+ {
+  "fecha": "2026-10-22",
+  "tema": "Renuncias en DeepMind por contratos militares"
+ },
+ {
+  "fecha": "2026-10-22",
+  "tema": "Agentes de OpenAI debilitaron sus monitores de seguridad"
+ },
+ {
+  "fecha": "2026-10-22",
+  "tema": "Bancos de EE. UU. detectan agentes de IA no autorizados en cuentas"
+ },
+ {
+  "fecha": "2026-10-22",
+  "tema": "Walmart deja comprar a agentes de IA; Amazon los bloquea"
+ },
+ {
+  "fecha": "2026-10-22",
+  "tema": "Alianza Mistral y NVIDIA para ingeniería industrial"
+ },
+ {
+  "fecha": "2026-10-22",
+  "tema": "HeyGen Voice Turbo"
+ },
+ {
+  "fecha": "2026-10-22",
+  "tema": "Perplexity JOLT, modelo profesor y alumno"
+ },
+ {
+  "fecha": "2026-10-22",
+  "tema": "Figma Specs y contexto de diseño para agentes (Config India)"
+ },
+ {
+  "fecha": "2026-10-22",
+  "tema": "Spline dentro de ChatGPT y Codex"
+ },
+ {
+  "fecha": "2026-10-22",
+  "tema": "UseIt Studio, agente de diseño para impresos"
+ },
+ {
+  "fecha": "2026-10-22",
+  "tema": "Chrome DevTools 153 y 154 con servidor MCP"
+ },
+ {
+  "fecha": "2026-10-23",
+  "tema": "Anthropic dona Agent Skills a la Agentic AI Foundation (con Open Responses, OpenEnv, OpenSandbox)"
+ },
+ {
+  "fecha": "2026-10-23",
+  "tema": "Walmart Agent Gateway, servidor MCP para compras"
+ },
+ {
+  "fecha": "2026-10-23",
+  "tema": "1Password permite a agentes iniciar sesión sin ver contraseñas"
+ },
+ {
+  "fecha": "2026-10-23",
+  "tema": "METR y Redwood encuentran formas de evadir el monitor de agentes de OpenAI"
+ },
+ {
+  "fecha": "2026-10-23",
+  "tema": "Anthropic y Theorem: pruebas formales en 123 librerías"
+ },
+ {
+  "fecha": "2026-10-23",
+  "tema": "OpenAI baja su valoración a 1,25 billones en nueva ronda"
+ },
+ {
+  "fecha": "2026-10-23",
+  "tema": "DeepSeek levantaría 15 mil millones"
+ },
+ {
+  "fecha": "2026-10-23",
+  "tema": "Microsoft: estudio de diagnóstico médico en Science"
+ },
+ {
+  "fecha": "2026-10-23",
+  "tema": "Tesoro de EE. UU. limita inversiones en IA en China"
+ },
+ {
+  "fecha": "2026-10-23",
+  "tema": "The Browser Company apaga Arc; migración a Dia"
+ },
+ {
+  "fecha": "2026-10-23",
+  "tema": "Meta: 825 mil millones en compromisos de centros de datos"
+ },
+ {
+  "fecha": "2026-10-23",
+  "tema": "Rivian compra Third Dimension"
+ },
+ {
+  "fecha": "2026-10-23",
+  "tema": "Australia obliga a Apple a permitir tiendas de terceros"
+ },
+ {
+  "fecha": "2026-10-23",
+  "tema": "Canva lanza Craft, su modelo de imágenes"
+ },
+ {
+  "fecha": "2026-10-23",
+  "tema": "Josh Comeau y la votación de Interop 2027"
+ },
+ {
+  "fecha": "2026-10-23",
+  "tema": "Falla crítica en GitLab"
+ },
+ {
+  "fecha": "2026-10-23",
+  "tema": "GitHub firewall de paquetes y Dependabot con npm 12, pnpm 12, Bun"
+ },
+ {
+  "fecha": "2026-10-23",
+  "tema": "Search Console muestra visibilidad en IA"
+ },
+ {
+  "fecha": "2026-10-23",
+  "tema": "Anuncios de ChatGPT llegan a 26 países más"
+ },
+ {
+  "fecha": "2026-10-23",
+  "tema": "El tráfico desde buscadores con IA sigue siendo pequeño"
+ },
+ {
+  "fecha": "2026-10-24",
+  "tema": "OpenAI deja de entrenar sus modelos con internet en vivo"
+ },
+ {
+  "fecha": "2026-10-24",
+  "tema": "Informe de OpenAI: agentes que borraron alertas y quitaron un monitor"
+ },
+ {
+  "fecha": "2026-10-24",
+  "tema": "Anthropic y AISI: incidente de Claude Mythos 5 en prueba de ciberseguridad"
+ },
+ {
+  "fecha": "2026-10-24",
+  "tema": "Kimi K3.1 Pro de Moonshot"
+ },
+ {
+  "fecha": "2026-10-24",
+  "tema": "Suecia bloquea ChatGPT y Claude en oficinas del gobierno"
+ },
+ {
+  "fecha": "2026-10-24",
+  "tema": "Ventas de computadores caen cerca de 20 por ciento por precio de memorias"
+ },
+ {
+  "fecha": "2026-10-24",
+  "tema": "iPhone Duo sale a la venta"
+ },
+ {
+  "fecha": "2026-10-24",
+  "tema": "Apple supera brevemente a Nvidia en valor"
+ },
+ {
+  "fecha": "2026-10-24",
+  "tema": "AWS tiene vendida su capacidad de nube"
+ },
+ {
+  "fecha": "2026-10-24",
+  "tema": "Figma: presets de iPhone Duo y controles de créditos de IA"
+ },
+ {
+  "fecha": "2026-10-24",
+  "tema": "Adobe MAX del 10 al 12 de noviembre"
+ },
+ {
+  "fecha": "2026-10-24",
+  "tema": "Falla grave en el decodificador Brotli de Node.js"
+ },
+ {
+  "fecha": "2026-10-24",
+  "tema": "Métricas de Copilot incluyen skills, agentes y MCP"
+ },
+ {
+  "fecha": "2026-10-25",
+  "tema": "Google cambia su política de privacidad: Personal Intelligence y anuncios"
+ },
+ {
+  "fecha": "2026-10-25",
+  "tema": "Block presenta Dessa, modelo de voz a voz"
+ },
+ {
+  "fecha": "2026-10-25",
+  "tema": "Claude Code activa tareas y elicitaciones de MCP"
+ },
+ {
+  "fecha": "2026-10-25",
+  "tema": "Cursor lanza Computer Use para sus agentes"
+ },
+ {
+  "fecha": "2026-10-25",
+  "tema": "Texas (Paxton) demanda a OpenAI y a Sam Altman"
+ },
+ {
+  "fecha": "2026-10-25",
+  "tema": "Herederos de Elvis Presley demandan a Anthropic"
+ },
+ {
+  "fecha": "2026-10-25",
+  "tema": "Reino Unido crea laboratorio de bioseguridad con IA"
+ },
+ {
+  "fecha": "2026-10-25",
+  "tema": "Agentes de OpenAI se pasaron secretos por el caché del procesador"
+ },
+ {
+  "fecha": "2026-10-25",
+  "tema": "Replit mueve su gasto de IA de Anthropic a OpenAI"
+ },
+ {
+  "fecha": "2026-10-25",
+  "tema": "Encuesta CNBC: rechazo a centros de datos cerca de casa"
+ },
+ {
+  "fecha": "2026-10-25",
+  "tema": "Jakob Nielsen: estudio de Figma Make y botón de detener para agentes"
+ },
+ {
+  "fecha": "2026-10-25",
+  "tema": "Node 26 entra a soporte de largo plazo"
+ },
+ {
+  "fecha": "2026-10-25",
+  "tema": "Matthew Prince espera fallas graves casi cada semana"
+ },
+ {
+  "fecha": "2026-10-26",
+  "tema": "Agente de Claude accede a datos electorales de Georgia"
+ },
+ {
+  "fecha": "2026-10-26",
+  "tema": "Precios de API de OpenAI y Anthropic bajan hasta 80 por ciento (Max Woolf)"
+ },
+ {
+  "fecha": "2026-10-26",
+  "tema": "Polémica por promoción pagada no declarada de Kimi K3.1 Pro"
+ },
+ {
+  "fecha": "2026-10-26",
+  "tema": "Estudio: Grok y OpenAI escogen candidatos distintos en elecciones de EE. UU."
+ },
+ {
+  "fecha": "2026-10-26",
+  "tema": "Rumor de MacBook Pro con pantalla táctil OLED (Gurman)"
+ },
+ {
+  "fecha": "2026-10-26",
+  "tema": "Rebranding de Apple Music con logo hecho con sonido"
+ },
+ {
+  "fecha": "2026-10-26",
+  "tema": "Agente de Figma se conecta a librerías del sistema de diseño"
+ },
+ {
+  "fecha": "2026-10-26",
+  "tema": "Chrome 156: random en CSS, navigation-source, IndexedDB sobre SQLite"
+ },
+ {
+  "fecha": "2026-10-26",
+  "tema": "Firefox 158 activa JPEG XL"
+ },
+ {
+  "fecha": "2026-10-26",
+  "tema": "The Verge: AI Overviews y AI Mode quitan tráfico a medios"
+ }
+]
