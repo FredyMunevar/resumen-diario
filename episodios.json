@@ -28,5 +28,25 @@
     "duracion": 482,
     "guion_sha": "74bdbfa76c74",
     "motor": "kokoro"
+  },
+  {
+    "fecha": "2026-10-25",
+    "titulo": "Domingo 25 de octubre: Google y tus datos, la voz de Dessa y tareas en eme ce pe",
+    "descripcion": "Google cambia su política de privacidad con Personal Intelligence, Block presenta Dessa, Claude Code activa tareas y elicitaciones de MCP, Cursor lanza Computer Use y Jakob Nielsen sobre diseño de agentes.",
+    "url": "https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-10-25.mp3",
+    "bytes": 3717347,
+    "duracion": 530,
+    "guion_sha": "3c9d438435e5",
+    "motor": "azure"
+  },
+  {
+    "fecha": "2026-10-26",
+    "titulo": "Lunes 26 de octubre: Claude y los datos de Georgia, MacBook táctil y CSS random",
+    "descripcion": "Un agente de Claude accede a datos electorales de Georgia, demanda por canciones de Elvis, Cursor Computer Use, rumores del MacBook Pro táctil, Figma conecta su agente al sistema de diseño y Chrome 156 trae random en CSS.",
+    "url": "https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-10-26.mp3",
+    "bytes": 3918307,
+    "duracion": 559,
+    "guion_sha": "1679a3fb79e3",
+    "motor": "azure"
   }
 ]

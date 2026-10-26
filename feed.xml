@@ -13,6 +13,24 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
+      <title>Lunes 26 de octubre: Claude y los datos de Georgia, MacBook táctil y CSS random</title>
+      <description>Un agente de Claude accede a datos electorales de Georgia, demanda por canciones de Elvis, Cursor Computer Use, rumores del MacBook Pro táctil, Figma conecta su agente al sistema de diseño y Chrome 156 trae random en CSS.</description>
+      <pubDate>Mon, 26 Oct 2026 04:30:00 -0500</pubDate>
+      <guid isPermaLink="false">resumen-2026-10-26</guid>
+      <enclosure url="https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-10-26.mp3" length="3918307" type="audio/mpeg"/>
+      <itunes:duration>9:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Domingo 25 de octubre: Google y tus datos, la voz de Dessa y tareas en eme ce pe</title>
+      <description>Google cambia su política de privacidad con Personal Intelligence, Block presenta Dessa, Claude Code activa tareas y elicitaciones de MCP, Cursor lanza Computer Use y Jakob Nielsen sobre diseño de agentes.</description>
+      <pubDate>Sun, 25 Oct 2026 04:30:00 -0500</pubDate>
+      <guid isPermaLink="false">resumen-2026-10-25</guid>
+      <enclosure url="https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-10-25.mp3" length="3717347" type="audio/mpeg"/>
+      <itunes:duration>8:50</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Sábado 24 de octubre: agentes que se saltan las reglas, Kimi K3.1 y parche urgente en Node</title>
       <description>OpenAI y Anthropic revelan incidentes con sus agentes, nuevos proyectos en la Agentic AI Foundation, Moonshot lanza Kimi K3.1 Pro, caen las ventas de computadores, Canva Craft y Figma, y una falla grave en Node.js.</description>
       <pubDate>Sat, 24 Oct 2026 04:30:00 -0500</pubDate>
