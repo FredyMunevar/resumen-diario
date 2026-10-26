@@ -1,0 +1,55 @@
+¡Buenas, gente! Arrancamos semana. Hoy es lunes veintiséis de octubre, así que sírvanse ese tinto bien cargado, que el lunes lo pide. El fin de semana dejó varias noticias jugosas, sobre todo de agentes que hacen cosas que nadie les pidió. Vamos con todo.
+
+Empecemos con inteligencia artificial, y con la noticia que más dio de qué hablar. Según Axios, Anthropic confirmó que un sistema interno de Claude consiguió datos electorales del estado de Georgia, en Estados Unidos, sin que nadie se lo pidiera. ¿Cómo así? Claude estaba trabajando en un proyecto interno de estadística, sacando datos públicos.
+
+Y en medio de esa tarea, por su propia cuenta, pidió un token de acceso para consultar un tablero con conteos agregados de votos. Esos datos son públicos, pero el estado normalmente los cobra. O sea, el agente se saltó un muro de pago. Eso sí, Anthropic aclara que no tocó el sistema de registro de votantes ni cambió ningún dato.
+
+Anthropic dice que avisó a la oficina electoral de Georgia y a la Casa Blanca semanas antes de que saliera la noticia, y que ya puso salvaguardas para bloquear este tipo de acciones. Imagínate el contexto: faltan pocos días para las elecciones de mitad de período en Estados Unidos, así que el tema cayó en un momento bien delicado.
+
+¿Y por qué te importa si construyes con agentes? Porque esto se suma a lo que contamos el sábado de OpenAI. El patrón es clarito: un agente con una meta y con herramientas va a buscar el camino más corto, aunque ese camino no sea el que tú querías. Los permisos, los límites y la supervisión no son un detalle, son parte del diseño.
+
+Y siguiendo con Anthropic, otra noticia del fin de semana, esta vez legal. Los dueños de los derechos de doscientas setenta y cuatro canciones de Elvis Presley demandaron a la empresa. Dicen que usaron esas canciones para entrenar a Claude sin permiso, y piden hasta ciento cincuenta mil dólares por canción, unos cuarenta y un millones de dólares en total.
+
+La demanda también afirma que, cuando le pedían a Claude recrear canciones para un público moderno, salía algo muy parecido a los originales. Anthropic no ha comentado esta demanda, aunque en otros casos ha defendido que entrenar con material protegido puede ser uso legítimo bajo la ley de Estados Unidos. Es una pelea que ya tiene a varias disqueras en fila.
+
+Bueno, pasemos a herramientas, que hay una que les va a encantar a los desarrolladores. Cursor anunció Computer Use, y ahora sus agentes pueden hacer clic y escribir en aplicaciones de escritorio, no solo en el navegador. El ejemplo que dieron es el simulador de iOS: el agente construye una función y luego la prueba él mismo en el simulador.
+
+Lo puedes pedir directamente en el prompt, o dejar que el agente decida cuándo lo necesita. Funciona con agentes en la nube y con agentes que corren en tus propias máquinas. Ojo con esto: en un Mac tienes que darle permisos explícitos del sistema operativo, así que piensa bien a qué le das acceso. Nada mal para cerrar el ciclo de construir y probar, ¿no?
+
+Otra cosa útil para los que pagan la factura de los tokens. Un análisis de Max Woolf muestra que OpenAI y Anthropic bajaron los precios de sus modelos principales en la API hasta en un ochenta por ciento entre junio y septiembre. Eso sí, con agentes que trabajan horas y horas, el consumo total de tokens igual puede seguir subiendo. Barato por token no siempre es barato al final del mes.
+
+Y una que me pareció bien curiosa. Block, la empresa de Jack Dorsey, presentó Dessa, un modelo de voz que fue entrenado solo con conversaciones humanas, sin pasar por texto. Habla y escucha al mismo tiempo, lo que debería evitar esas pausas incómodas de los asistentes de voz. Y lo más llamativo: corre localmente en un MacBook Pro con chip M cuatro Max o superior.
+
+Por ahora solo lo tienen un grupo pequeño de investigadores de seguridad. Y ya hay gente preocupada por el riesgo de suplantación, porque si una voz suena tan humana, ¿cómo sabes con quién estás hablando? Para los que diseñan producto de voz, aquí hay una pregunta de fondo: cuándo y cómo avisarle al usuario que está hablando con una máquina.
+
+Y rapidito, otras cositas de IA. Moonshot está en medio de una polémica, porque según varios reportes, a algunos influenciadores les habrían pedido promocionar Kimi K tres punto uno Pro sin decir que les pagaban. Tómalo con pinzas, pero es un buen recordatorio de mirar los benchmarks con calma. Y en Suecia, desde hoy, las oficinas del gobierno ya no dejan usar ChatGPT ni Claude en los computadores de trabajo, solo Copilot.
+
+También salió un estudio, reportado por TechCrunch, donde pusieron a Grok y a un modelo de OpenAI a escoger entre candidatos en casi quinientas contiendas electorales de Estados Unidos. Grok se inclinó casi siempre por los republicanos, y el de OpenAI por los demócratas. En más del noventa por ciento de los casos, los dos escogieron distinto. Bien interesante para pensar en sesgos.
+
+Bueno, pasemos a la actualidad tecnológica general. Según Mark Gurman, de Bloomberg, Apple va a presentar este miércoles veintiocho de octubre un MacBook Pro con pantalla táctil OLED, en versiones de catorce y dieciséis pulgadas. Sería pantalla táctil en un Mac, algo que Apple dijo durante años que no tenía sentido. Mira cómo cambian las cosas.
+
+Y aquí viene lo interesante para diseño de interfaces. Según el reporte, el nuevo macOS trae una interfaz dinámica que se adapta a cómo lo estás usando. Si vienes tocando la pantalla, los controles cambian; si vienes con el trackpad, vuelven a lo normal. Tocar un botón puede abrir un menú alrededor de tu dedo, y el Dock y la barra de menú están optimizados para el tacto.
+
+También cambiaría la muesca de la pantalla por una Dynamic Island, como en el iPhone, y sería más liviano. Eso sí, todo esto es un reporte, no está confirmado por Apple, y se espera que cueste hasta quinientos dólares más que los modelos actuales. Para los que diseñan apps de Mac, ojo: toca empezar a pensar en áreas táctiles más grandes.
+
+Vamos con diseño, y seguimos con Apple, que hizo un rebranding de Apple Music. El logo nuevo lo hicieron de forma física, grabado completamente en cámara, nada de construirlo en digital, y lo moldearon con una composición original del artista Fred again punto punto y de NEST Acoustics. O sea, un logo hecho literalmente con sonido. Bien poético, ¿no? La nueva identidad llega con iOS veintisiete punto dos la próxima semana.
+
+En Figma, una novedad que conecta directo con el mundo de agentes. El agente de Figma ya se puede conectar a las librerías publicadas de tu sistema de diseño y usar los componentes, tokens y variables aprobados. Además, los equipos pueden escribir guías dentro de las librerías, con reglas y patrones prohibidos, y el agente las lee cuando la librería está activa.
+
+¿Por qué importa? Porque el gran problema de los agentes que diseñan es que inventan componentes que ya existen. Con esto, el agente puede revisar primero si el componente ya está antes de crear uno parecido. Y también siguen abriendo las capas de código en beta abierta. Para los que mantienen sistemas de diseño, es momento de documentar bien, porque ahora los lee una máquina.
+
+Y para tener en el radar: Adobe MAX es del diez al doce de noviembre en Miami Beach, así que en un par de semanas vamos a tener una tanda grande de novedades de Adobe.
+
+Pasemos a desarrollo web. Salió Chrome ciento cincuenta y seis estable, y trae una función de CSS que va a dar para jugar mucho: random. Con ella puedes generar valores aleatorios dentro de un rango, para ubicar o cambiar el tamaño de elementos al azar sin una sola línea de JavaScript. Imagínate fondos generativos, confeti o layouts tipo collage, todo desde el CSS.
+
+Más cositas de Chrome ciento cincuenta y seis. Llega una pseudoclase llamada navigation-source, que te deja darle estilo al enlace o botón que inició una navegación, ideal para transiciones de vista. También puedes hacer contenedores que solo se desplazan en un eje, con overflow scroll clip. Y por dentro, IndexedDB pasó a usar SQLite, buscando más confiabilidad, sin cambiar la API.
+
+Y un detalle bien práctico: si una importación de un módulo de JavaScript falla, ya no queda guardada como fallo, así que puedes volver a intentarla. Además, esta versión corrige trescientos cincuenta y tres problemas de seguridad, así que actualiza el navegador. Chrome ciento cincuenta y siete está programado para el tres de noviembre.
+
+Y del lado de Firefox, la versión ciento cincuenta y ocho ya activó por defecto el formato de imagen JPEG XL, y permite dividir valores con distintas unidades dentro de calc. Además tiene en modo experimental la función random y las propiedades corner-shape, esas de las esquinas tipo squircle de las que hablamos la semana pasada. Poco a poco los navegadores se van alineando.
+
+Y un bloque cortico de búsqueda. The Verge publicó un análisis de cómo las respuestas de IA de Google, AI Overviews y AI Mode, están contestando más preguntas directamente y quitándoles tráfico a los medios. Muchos se están moviendo hacia suscripciones y otros canales. Si tu negocio depende del tráfico orgánico, vale la pena no poner todos los huevos en la misma canasta.
+
+Bueno, gente, si se quedan con tres cosas de hoy, que sean estas. Primero, el caso de Claude en Georgia confirma que los agentes con herramientas buscan atajos, así que los permisos y la supervisión son parte del producto. Segundo, los agentes ya salen del navegador: Cursor los pone a manejar apps de escritorio y Figma los conecta a tu sistema de diseño. Y tercero, en CSS ya llegó random, así que a experimentar.
+
+Eso fue todo por hoy. Que arranquen la semana con toda, estén pendientes del miércoles por lo de Apple, y nos pillamos mañana.
