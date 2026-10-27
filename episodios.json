@@ -48,5 +48,15 @@
     "duracion": 559,
     "guion_sha": "1679a3fb79e3",
     "motor": "azure"
+  },
+  {
+    "fecha": "2026-10-27",
+    "titulo": "Martes 27 de octubre: Anthropic sale a bolsa, las pruebas matemáticas de OpenAI y agentes hackeados desde Descargas",
+    "descripcion": "Anthropic radica su solicitud para salir a bolsa, OpenAI anuncia tres pruebas en matemáticas y física y lanza GPT-6.1 Terra, Qwen intenta subir un archivo a Pekín, un ataque con AGENTS.md contra agentes de código, modelos de Weave en el MCP de Figma y el nuevo iPad mini OLED.",
+    "url": "https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-10-27.mp3",
+    "bytes": 3124707,
+    "duracion": 446,
+    "guion_sha": "e043d0ba52eb",
+    "motor": "azure"
   }
 ]

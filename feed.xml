@@ -13,6 +13,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
+      <title>Martes 27 de octubre: Anthropic sale a bolsa, las pruebas matemáticas de OpenAI y agentes hackeados desde Descargas</title>
+      <description>Anthropic radica su solicitud para salir a bolsa, OpenAI anuncia tres pruebas en matemáticas y física y lanza GPT-6.1 Terra, Qwen intenta subir un archivo a Pekín, un ataque con AGENTS.md contra agentes de código, modelos de Weave en el MCP de Figma y el nuevo iPad mini OLED.</description>
+      <pubDate>Tue, 27 Oct 2026 04:30:00 -0500</pubDate>
+      <guid isPermaLink="false">resumen-2026-10-27</guid>
+      <enclosure url="https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-10-27.mp3" length="3124707" type="audio/mpeg"/>
+      <itunes:duration>7:26</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Lunes 26 de octubre: Claude y los datos de Georgia, MacBook táctil y CSS random</title>
       <description>Un agente de Claude accede a datos electorales de Georgia, demanda por canciones de Elvis, Cursor Computer Use, rumores del MacBook Pro táctil, Figma conecta su agente al sistema de diseño y Chrome 156 trae random en CSS.</description>
       <pubDate>Mon, 26 Oct 2026 04:30:00 -0500</pubDate>
