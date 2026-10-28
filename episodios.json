@@ -58,5 +58,15 @@
     "duracion": 446,
     "guion_sha": "e043d0ba52eb",
     "motor": "azure"
+  },
+  {
+    "fecha": "2026-10-28",
+    "titulo": "Miércoles 28 de octubre: nuevos Mac con M6, Genie 4 de Google y Anthropic compra una farmacéutica de una sola persona",
+    "descripcion": "Apple anuncia iMac y MacBook Pro con chip M6, DeepMind presenta Genie 4 con audio, Oracle integra ChatGPT y las TPU de Google, Anthropic compra Mithril Medicine, Axiom formaliza un teorema gigante en Lean, instaladores falsos de ChatGPT y Claude, fallas en Cloudflare y MCP Toolbox, y novedades de Figma y Framer.",
+    "url": "https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-10-28.mp3",
+    "bytes": 3642375,
+    "duracion": 520,
+    "guion_sha": "e805f879537b",
+    "motor": "azure"
   }
 ]

@@ -1,6 +1,6 @@
-2026-10-27 14:30 UTC
+2026-10-28 09:40 UTC
 Azure configurado: si
 Azure: región eastus
-ok azure /tmp/tmpo34bl1oi/Resumen_2026-10-27.mp3
-ok https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-10-27.mp3
-Episodios procesados: 2026-10-27 (azure)
+ok azure /tmp/tmprbggo6t_/Resumen_2026-10-28.mp3
+ok https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-10-28.mp3
+Episodios procesados: 2026-10-28 (azure)

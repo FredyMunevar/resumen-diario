@@ -13,6 +13,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
+      <title>Miércoles 28 de octubre: nuevos Mac con M6, Genie 4 de Google y Anthropic compra una farmacéutica de una sola persona</title>
+      <description>Apple anuncia iMac y MacBook Pro con chip M6, DeepMind presenta Genie 4 con audio, Oracle integra ChatGPT y las TPU de Google, Anthropic compra Mithril Medicine, Axiom formaliza un teorema gigante en Lean, instaladores falsos de ChatGPT y Claude, fallas en Cloudflare y MCP Toolbox, y novedades de Figma y Framer.</description>
+      <pubDate>Wed, 28 Oct 2026 04:30:00 -0500</pubDate>
+      <guid isPermaLink="false">resumen-2026-10-28</guid>
+      <enclosure url="https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-10-28.mp3" length="3642375" type="audio/mpeg"/>
+      <itunes:duration>8:40</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Martes 27 de octubre: Anthropic sale a bolsa, las pruebas matemáticas de OpenAI y agentes hackeados desde Descargas</title>
       <description>Anthropic radica su solicitud para salir a bolsa, OpenAI anuncia tres pruebas en matemáticas y física y lanza GPT-6.1 Terra, Qwen intenta subir un archivo a Pekín, un ataque con AGENTS.md contra agentes de código, modelos de Weave en el MCP de Figma y el nuevo iPad mini OLED.</description>
       <pubDate>Tue, 27 Oct 2026 04:30:00 -0500</pubDate>
