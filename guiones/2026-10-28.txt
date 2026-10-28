@@ -1,0 +1,59 @@
+¡Buenas, gente! Bienvenidos a El Tinto Tech. Hoy es miércoles veintiocho de octubre, mitad de semana, y el día viene cargado. Hay computadores nuevos de Apple, mundos virtuales con sonido, una compra muy curiosa de Anthropic y un par de alertas de seguridad que no se pueden perder. Sírvanse ese tinto y arrancamos.
+
+Empecemos por Apple, porque hoy es día de lanzamientos. Ayer la empresa anunció dos equipos nuevos con el chip eme seis. Uno es el iMac de veinticuatro pulgadas, que sigue igual por fuera, viene en siete colores y arranca en mil cuatrocientos noventa y nueve dólares.
+
+El otro es el MacBook Pro de catorce pulgadas de entrada, también con eme seis. Apple promete hasta veinticuatro horas de batería, y arranca en mil novecientos noventa y nueve dólares. Las preventas de los dos abren hoy mismo.
+
+Y ojo, que la cosa no termina ahí. Hoy Apple tiene su presentación en Los Ángeles, que no es un evento tradicional sino una sesión con prensa invitada. Lo que se espera es el famoso MacBook Pro con pantalla táctil OLED. Eso sí, hasta que Apple no lo anuncie, sigue siendo expectativa. Mañana les cuento si llegó.
+
+Bueno, pasemos a algo que me pareció espectacular. Google DeepMind presentó Genie cuatro, la nueva versión de su modelo de mundos. Para los que no lo conocen, Genie genera mundos interactivos en tiempo real, por los que uno se puede mover como en un videojuego.
+
+¿Y qué trae de nuevo? Lo más llamativo es el audio. Ahora genera música, sonido ambiente y hasta diálogos que coinciden con lo que pasa en pantalla. Además, mientras la simulación corre, puedes escribirle cosas como cambia el clima o mueve la cámara, o pedirle que agregue personas y objetos.
+
+También mantiene una escena coherente hasta por dos minutos, el doble que la versión anterior. Y por dentro trabaja con Gemini, que planea los pasos y revisa los cuadros mientras Genie dibuja. Por ahora está en vista previa para probadores de confianza. En las próximas semanas llegará a los suscriptores de Google AI Ultra y a algunos socios de la API de Gemini.
+
+Eso sí, la propia DeepMind reconoce que los detalles se desordenan cuando la simulación se alarga, y que el texto dentro del mundo todavía no sale legible. Pero imagínate esto para prototipar experiencias, juegos o escenas de cine. Nada mal.
+
+Ahora, una alianza que mueve fichas en la nube. Oracle tuvo su evento Oracle AI World, y Sam Altman subió al escenario. Oracle va a meter ChatGPT y Codex dentro de sus aplicaciones empresariales. Con una herramienta llamada AI Workspace, ChatGPT puede hacer tareas directamente dentro del software de Oracle.
+
+También presentaron App Composer, para que gente que no programa construya sus propias aplicaciones con ayuda de la inteligencia artificial. Y hay un paquete gratuito para empezar, pensado para pequeñas empresas, que incluye ChatGPT Business y Codex.
+
+Pero lo que más me llamó la atención fueron los chips. Oracle va a ofrecer en su nube los procesadores te pe u de Google, y es la primera vez que Google se los entrega a otro gran proveedor de nube. Además sumará los chips de Cerebras y el procesador Jalapeño de OpenAI. El despliegue de las te pe u arranca el próximo año.
+
+Bueno, cambiemos de tema, que esta historia está buenísima. Anthropic compró Mithril Medicine, una empresa de medicamentos que tenía un solo empleado. Sí, una sola persona. Su fundador, Cody Tranbarger, trabaja en tratamientos para dos formas raras de distrofia muscular.
+
+¿Cómo lo hacía solo? Usaba Claude para coordinar experimentos, contratos y logística con once laboratorios externos. Según Anthropic, uno de sus candidatos pasó de ser una idea a resultados prometedores en ratones en menos de dieciocho meses. Ahora sigue la investigación desde Anthropic, y la empresa dice que podría llegar a pruebas en humanos a finales de dos mil veintiocho.
+
+De paso, Anthropic anunció trabajos con seis compañías del sector, entre ellas Bristol Myers Squibb. En uno de los casos, Claude revisó más de mil páginas de documentación de manufactura y encontró los mismos errores que los revisores humanos, más siete que ellos no vieron. El tiempo de revisión bajó cerca de un noventa por ciento. Eso sí, son cifras de la propia empresa, así que tómenlas con pinzas.
+
+Y hablando de máquinas haciendo trabajo pesado, miren esto. La startup Axiom anunció que sus agentes de inteligencia artificial formalizaron en Lean la clasificación de los grupos simples finitos. Es una de las demostraciones más largas de la historia de las matemáticas, unas quince mil páginas escritas por cerca de cien matemáticos.
+
+Lean es un lenguaje donde el computador verifica cada paso de una prueba. Axiom dice que lo logró en veinticuatro días, con decenas de agentes guiados por ingenieros y matemáticos. Salieron más de cuarenta y tres millones de líneas de código, y encontraron treinta y cuatro desviaciones respecto a lo publicado, casi todas menores.
+
+Eso sí, todavía falta que humanos confirmen que los enunciados formales dicen exactamente lo que deben decir. Y el propio director de Axiom reconoce que nadie por fuera ha reconstruido la prueba aún. Pero qué semana para las matemáticas con inteligencia artificial, ¿no?
+
+Ahora sí, ojo con esto, que es de seguridad y te puede tocar. Check Point descubrió una campaña que se llama Yoba. Los atacantes crearon páginas falsas en GitHub que ofrecen versiones de escritorio de ChatGPT y Claude, y que aparecen bien posicionadas en Google.
+
+Lo truculento es que el paquete trae el instalador real y firmado de OpenAI o de Claude, pero acompañado de un archivo malicioso. El programa legítimo carga ese archivo sin darse cuenta, y termina instalando un minero de criptomonedas que se pausa cuando estás usando el computador, para que no lo notes.
+
+Check Point aclara que ni OpenAI ni Anthropic fueron comprometidas. La lección es sencilla. Descarga las aplicaciones de inteligencia artificial solo desde las páginas oficiales, nunca desde un resultado de búsqueda o un repositorio cualquiera. Y una firma válida solo garantiza ese ejecutable, no todo lo que viene en el mismo paquete.
+
+Y para los que construyen con agentes y servidores eme ce pe, dos alertas más. La primera es de Cloudflare. Contó que un error en su servicio de inteligencia artificial hizo que ciento cincuenta y cinco respuestas del modelo ge ele eme cinco punto tres mostraran contenido de otros usuarios.
+
+Solo pasó con prompts larguísimos, de más de seiscientos ochenta mil tokens, entre finales de agosto y el nueve de septiembre. La causa fue una mala configuración del caché más un error en SGLang, el motor que sirve el modelo. Ya está corregido, y si tú sirves modelos con SGLang, actualiza a la versión cero punto cinco punto veintidós o posterior.
+
+La segunda es una falla crítica en eme ce pe Toolbox for Databases, la herramienta de Google para conectar agentes con bases de datos. Un atacante sin autenticarse podía sacar archivos del servidor y sobrescribir otros. Afecta desde la versión uno punto dos, así que si la usas, pásate a la uno punto cinco o posterior.
+
+Bueno, pasemos a diseño, que también hay cositas. Figma está activando versiones para sus plugins generativos y sus shaders. Cada vez que editas uno, se crea una versión nueva que puedes revisar o restaurar. Y lo chévere es que el agente escribe automáticamente una nota con lo que cambió.
+
+Si diseñas producto y ya estás jugando con shaders hechos a punta de prompts, esto te salva de perder ese efecto que te había quedado perfecto. Se está desplegando esta semana.
+
+Y en Framer, dos novedades. Ahora su gestor de contenidos tiene cursores multijugador en los campos de texto, para editar contenido en equipo al mismo tiempo. Y rediseñaron el panel de recursos, para organizar componentes, colores y estilos en carpetas propias. Hasta los agentes de Framer te pueden ayudar a ordenarlo.
+
+Y rapidito, otras cositas. Según Business Insider, citado por Reuters, Microsoft estaría ofreciendo retiros voluntarios a unos sesenta mil empleados en varios países. Y Meta cerró dos emisiones de acciones por unos treinta y siete mil quinientos millones de dólares en total, para seguir financiando su infraestructura de inteligencia artificial. La carrera por los centros de datos no frena.
+
+Bueno, gente, si se quedan con tres cosas de hoy, que sean estas. Primero, Genie cuatro de Google ya genera mundos interactivos con sonido, y eso abre la puerta a prototipos y experiencias muy locas. Segundo, la inteligencia artificial está metiéndose en serio en la ciencia, desde medicamentos hasta matemáticas, aunque falte verificación externa.
+
+Y tercero, y esto es para ya: descarga tus herramientas de inteligencia artificial solo de sitios oficiales, y si usas eme ce pe Toolbox o SGLang, actualiza hoy mismo.
+
+Eso fue todo por hoy en El Tinto Tech. Gracias por acompañarme con el tinto. Cuídense mucho, revisen esas descargas, y nos pillamos mañana.
