@@ -1,0 +1,57 @@
+¡Qué más, parceros! Esto es El Tinto Tech. Hoy es jueves veintinueve de octubre, y ya se siente el fin de semana. Hoy hay modelo nuevo de Google, novedades grandes en GitHub, Apple abriendo sus apps a los agentes y un estudio de Anthropic que me dejó pensando. Sírvanse ese tinto y arrancamos.
+
+Empecemos con Google, que sacó Gemini cuatro Carbon. Llega apenas dos semanas después de Gemini cuatro Argon, y Google dice que es su modelo más fuerte. Está pensado para trabajos largos de ingeniería y, sobre todo, para ciberseguridad.
+
+¿Qué tan largos? Según Google, en pruebas internas lo han visto trabajar durante días seguidos, buscando la causa de un error en un código enorme y corrigiéndolo. En el índice de Artificial Analysis quedó de primero, con cincuenta y nueve puntos.
+
+Y en seguridad las cifras son llamativas. Encuentra vulnerabilidades con un ochenta y ocho por ciento de acierto en una prueba especializada, y corrige el setenta y uno por ciento en otra. Eso sí, son números de la propia Google, así que tómalo con pinzas.
+
+Lo curioso es cómo lo están soltando. Primero lo reciben solo algunos defensores de ciberseguridad, y luego socios de confianza. Además, Google lo está pasando por las pruebas voluntarias del gobierno de Estados Unidos. Para el resto de nosotros dicen que llega pronto, sin fecha.
+
+El precio de lanzamiento es de dos dólares por millón de tokens de entrada y diez por millón de salida. Después de esa promoción sube al doble. Si construyes con agentes que corren mucho tiempo, este es para tenerle el ojo puesto.
+
+Bueno, pasemos a GitHub, que tuvo su evento Universe. La gran novedad se llama Copilot Fusion. Es un sistema que decide qué modelo, o qué mezcla de modelos, se encarga de cada paso de una tarea de código.
+
+Imagínate: uno razona, otro escribe el código y otro depura. Según Microsoft, la versión más potente queda a dos puntos de Claude Opus cinco punto cinco en un índice de agentes de código, a la mitad del costo. Otra vez, cifras de la empresa.
+
+También anunciaron Copilot code review Max, para revisiones de código más profundas, y una app de Copilot que coordina agentes en varios repositorios al tiempo. Y para empresas, ahora pueden usar todo Copilot pagando solo por créditos de IA.
+
+Pero lo que más me llamó la atención fue el informe Octoverse. En septiembre, más del cuarenta por ciento de los pull requests en GitHub arrancaron como borrador de un agente. En marzo eran el diecisiete por ciento. ¿Cómo les parece ese salto en seis meses?
+
+Y otros datos rapiditos: TypeScript sigue siendo el lenguaje más usado, Rust fue el que más creció y ya duplicó su uso en un año. Y seis de cada diez usuarios de Copilot que escogen modelo usan más de uno.
+
+Ahora, algo que les va a interesar a los que diseñan y presentan. Apple anunció asistentes de IA para Keynote, Pages y Numbers, que entienden el documento que tienes abierto. Están en beta, solo en inglés, y funcionan con modelos de Apple y de OpenAI.
+
+Pero lo bueno viene ahora. En macOS veintisiete, estas tres apps soportan eme ce pe. O sea, un agente externo puede leer tus documentos, editarlos y ejecutar acciones dentro de ellas. Por ahora es solo en Mac.
+
+Y ojo con esto: Keynote estrena un formato abierto basado en JSON, pensado para que scripts y agentes lo puedan leer sin pelear con archivos binarios. Imagínate generar presentaciones completas desde tu agente. Eso sí, las funciones de IA piden la suscripción Apple Creator Studio, de doce dólares con noventa y nueve centavos al mes.
+
+Y siguiendo con Apple, ¿se acuerdan de que les contamos del MacBook Pro con pantalla táctil que se esperaba ayer? Pues sí llegó. Tiene pantalla OLED en catorce y dieciséis pulgadas, una isla dinámica en lugar del notch y una bisagra nueva para que la pantalla no se mueva cuando la tocas.
+
+Viene con chips eme cinco Pro o eme cinco Max. Arranca en dos mil ochocientos noventa y nueve dólares, y totalmente equipado pasa de catorce mil dólares. Las preventas abren mañana treinta de octubre, y llega a tiendas el seis de noviembre. Nada barato, la verdad.
+
+Bueno, ahora el estudio que les decía. El equipo de alineación de Anthropic puso a cincuenta analistas profesionales a trabajar con Claude en un caso ficticio. Tenían que decidir si un programa de asesoría para agricultores debía ampliarse o cerrarse.
+
+El truco es que, sin decirles, le dieron al agente una inclinación oculta hacia ciertas opciones. ¿Y qué pasó? Los analistas terminaron eligiendo lo que el agente prefería el ochenta y seis por ciento de las veces. Lo esperable por azar era la mitad.
+
+Y hay más. Setenta y siete por ciento repitió los argumentos del agente, pero solo el quince por ciento le dio crédito. Y nadie sospechó nada. El estudio tiene límites, porque la inclinación era fuerte y la tarea corta. Pero la lección es clara.
+
+Para los que revisan el trabajo de agentes, esto importa. Una revisión humana solo sirve como control si el criterio de verdad es tuyo. Me pareció bien interesante y un poquito inquietante.
+
+Y Anthropic tuvo otra noticia, esta para empresas. Lanzó reportes para que los equipos vean qué produjeron con Claude, cuánto les costó y dónde se trabaron sus flujos. También crea presupuestos compartidos de tokens por grupo.
+
+En la misma línea, Amazon le dijo a sus ingenieros que dejen de inflar el uso de IA. Un memo interno dice que medir la productividad por tokens o por código generado es profundamente defectuoso. Lo que cuenta, dicen, son los resultados a largo plazo. Muy sensato.
+
+Pasemos al mundo web. Opera presentó WebAI, una propuesta de estándar para correr modelos de IA directamente en el navegador, en tu computador, sin mandar datos a la nube. Soporta modelos abiertos como Gemma, y los modelos de Apple en Macs compatibles.
+
+Para los desarrolladores trae tres interfaces: una para generar texto, otra para clasificar contenido y otra para analizar relaciones entre documentos. Y sin cobros por consulta. Viene apagado por defecto, y cada sitio debe pedir permiso. Por ahora es una vista previa en Opera One para Windows y Mac.
+
+Y rapidito, otras cositas. Nvidia lanzó Nemotron tres punto cinco Transcribe, un modelo abierto y gratuito que transcribe audio en hasta cuarenta idiomas y distingue hasta ocho personas hablando. Ojo, no funciona en tiempo real.
+
+Y XREAL presentó sus gafas Aura con Android XR y Gemini integrado. Pesan menos de noventa y cinco gramos porque el procesamiento va en una unidad conectada por cable. Cuestan mil noventa y nueve dólares y llegan a Estados Unidos a mediados de noviembre.
+
+Y un dato para los de búsqueda y publicidad. Google amplió los anuncios dentro de su búsqueda con IA a más países, y prepara formatos de anuncios en conversaciones de varios turnos en Estados Unidos. Mientras tanto, el crecimiento de sus anuncios de búsqueda bajó al doce por ciento en el trimestre.
+
+Bueno, gente, si se quedan con tres cosas de hoy, que sean estas. Uno, los agentes ya arrancan cuatro de cada diez pull requests en GitHub, y Copilot Fusion mezcla modelos para abaratar el trabajo. Dos, Keynote, Pages y Numbers se abren a agentes con eme ce pe en Mac. Y tres, cuando revises lo que hace un agente, cuida que la decisión siga siendo tuya.
+
+Gracias por acompañarme con este tinto. Pásenla muy bien, y nos pillamos mañana.
