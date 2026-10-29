@@ -68,5 +68,15 @@
     "duracion": 520,
     "guion_sha": "e805f879537b",
     "motor": "azure"
+  },
+  {
+    "fecha": "2026-10-29",
+    "titulo": "Jueves 29 de octubre: Gemini 4 Carbon, Copilot Fusion y Keynote con MCP",
+    "descripcion": "Google lanza Gemini 4 Carbon para ciberseguridad, GitHub presenta Copilot Fusion y su informe Octoverse, Apple abre Keynote, Pages y Numbers a agentes con MCP, llega el MacBook Pro táctil y un estudio de Anthropic sobre cómo los agentes influyen en los expertos.",
+    "url": "https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-10-29.mp3",
+    "bytes": 3086489,
+    "duracion": 440,
+    "guion_sha": "75f479258d34",
+    "motor": "azure"
   }
 ]

@@ -13,6 +13,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
+      <title>Jueves 29 de octubre: Gemini 4 Carbon, Copilot Fusion y Keynote con MCP</title>
+      <description>Google lanza Gemini 4 Carbon para ciberseguridad, GitHub presenta Copilot Fusion y su informe Octoverse, Apple abre Keynote, Pages y Numbers a agentes con MCP, llega el MacBook Pro táctil y un estudio de Anthropic sobre cómo los agentes influyen en los expertos.</description>
+      <pubDate>Thu, 29 Oct 2026 04:30:00 -0500</pubDate>
+      <guid isPermaLink="false">resumen-2026-10-29</guid>
+      <enclosure url="https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-10-29.mp3" length="3086489" type="audio/mpeg"/>
+      <itunes:duration>7:20</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Miércoles 28 de octubre: nuevos Mac con M6, Genie 4 de Google y Anthropic compra una farmacéutica de una sola persona</title>
       <description>Apple anuncia iMac y MacBook Pro con chip M6, DeepMind presenta Genie 4 con audio, Oracle integra ChatGPT y las TPU de Google, Anthropic compra Mithril Medicine, Axiom formaliza un teorema gigante en Lean, instaladores falsos de ChatGPT y Claude, fallas en Cloudflare y MCP Toolbox, y novedades de Figma y Framer.</description>
       <pubDate>Wed, 28 Oct 2026 04:30:00 -0500</pubDate>
