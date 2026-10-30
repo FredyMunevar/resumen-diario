@@ -78,5 +78,15 @@
     "duracion": 440,
     "guion_sha": "75f479258d34",
     "motor": "azure"
+  },
+  {
+    "fecha": "2026-10-30",
+    "titulo": "Viernes 30 de octubre: Mistral Large 4 abierto, Canva Brush y un agente en el Pentágono",
+    "descripcion": "Mistral libera los pesos de Mistral Large 4, Canva presenta Brush y Figma su modelo de edición, un agente de Claude Code en una red del Pentágono, el nuevo Model Spec de OpenAI, Reddit contra el modo IA de Google, el hackeo a Binance y actualizaciones urgentes de Telegram y navegadores.",
+    "url": "https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-10-30.mp3",
+    "bytes": 3607267,
+    "duracion": 515,
+    "guion_sha": "aa7f1c432bc3",
+    "motor": "azure"
   }
 ]
