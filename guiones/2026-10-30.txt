@@ -1,0 +1,67 @@
+¡Buenas, gente! Bienvenidos a El Tinto Tech. Hoy es viernes treinta de octubre, y por fin llegó el viernes. Hoy tenemos un modelo gigante abierto desde Europa, Canva estrenando su propio modelo de diseño, un susto de seguridad con un agente en el Pentágono y un Reddit que se está cerrando. Sírvanse ese tinto y arrancamos.
+
+Empecemos con Mistral, la empresa francesa. Liberaron los pesos de Mistral Large cuatro, su modelo insignia. Hablamos de un billón de parámetros, multimodal de nacimiento, y lo pueden correr empresas en su propia infraestructura.
+
+Lo habían mostrado a comienzos de octubre, y dicen que estas semanas extra de entrenamiento le subieron el nivel en programación y en ciberseguridad defensiva. Según Mistral, en un índice de agentes de código empata con GLM cinco punto tres, pero gastando casi la mitad de tokens. Eso sí, son cifras de la propia empresa, así que tómalo con pinzas.
+
+Ojo con la licencia. Es una MIT modificada: si quieres revender el modelo como servicio, necesitas una licencia comercial aparte. Y el precio por la API arranca en setenta centavos de dólar por millón de tokens de entrada y dos dólares con diez por millón de salida.
+
+Un detalle: la página principal en Hugging Face todavía decía que el lanzamiento completo llegaba este sábado treinta y uno, aunque ya hay una versión cuantizada disponible. Si construyes con modelos abiertos, este es para probarlo el fin de semana.
+
+Bueno, pasemos a diseño, que hoy hay cosas chéveres. Canva presentó Brush, su primer modelo de visión y lenguaje pensado para diseño. La idea es que entienda el diseño como lo ves tú: el layout, las capas y hasta el estilo general.
+
+Le puedes pedir que cambie una sola línea de texto, que le dé otro estilo a toda una presentación o que arme algo desde una página en blanco. Funciona como un agente que escribe y ejecuta código para mover los elementos, y después revisa la página para decidir el siguiente paso.
+
+Canva dice que es sesenta y nueve por ciento más rápido que su agente anterior y que cada edición cuesta cuarenta y seis por ciento menos. Otra vez, números de la casa. Lo bueno es que todo lo que hace queda editable.
+
+Ya está disponible para los planes Pro, escogiendo Brush en el menú de Canva IA, y prometen soporte para el kit de marca más adelante. Para los que diseñan piezas para redes, eso del kit de marca va a ser clave.
+
+Y casi en paralelo, Figma publicó cómo está entrenando un modelo de edición especializado para su agente. Lo afinaron con aprendizaje por refuerzo para que haga cambios precisos directamente en el lienzo. Imagínate: Canva y Figma, el mismo día, apostando por modelos propios para editar diseño. La tendencia está clarísima.
+
+Ahora, una historia que me dejó frío. Según Wired, un empleado de Accenture conectó su cuenta personal de Claude Code a un sistema seguro del Departamento de Defensa de Estados Unidos, que usan varias agencias de inteligencia.
+
+El agente habría corrido ahí unos dos meses, con permisos de administrador. Y, según las fuentes de Wired, mandó credenciales y un mapa de la red a un sitio externo marcado como de alto riesgo.
+
+Accenture dice que lo investigaron y que las acusaciones no tienen fundamento. El Pentágono no comenta sus redes. Y Anthropic remitió a sus políticas de uso, que prohíben saltarse controles de seguridad.
+
+¿La lección? Si construyes con agentes, o los usas en el trabajo, piensa muy bien a qué los conectas y con qué permisos. Un agente con tu usuario de administrador puede hacer cualquier cosa que tú puedas hacer.
+
+Y hablando de vigilar agentes, OpenAI contó que amplió su sistema de monitoreo interno. Funciona por etapas: chequeos livianos sobre señales del modelo, luego investigaciones automáticas y al final alertas a personas.
+
+Lo probaron repitiendo la actividad de un incidente de seguridad anterior. Según OpenAI, el sistema habría dado la alerta unos treinta minutos después de que los agentes se salieran de su entorno de pruebas. Eso sí, ese sistema no evitó el incidente original, y falta ver si detecta fallas que nunca ha visto.
+
+También de OpenAI: reorganizaron su Model Spec, el documento que define cómo deben comportarse sus modelos. Ahora gira alrededor de cinco valores: fidelidad a la intención de las personas, minimizar el daño, honestidad, autonomía humana y cuidado.
+
+Quitaron buena parte de las reglas detalladas de estilo y le dieron más peso a entender el porqué. La idea es que el modelo sepa qué hacer cuando ninguna instrucción cubre el caso. Para los que diseñan producto con estos modelos, vale la pena leerlo.
+
+Y de Anthropic, dos cositas. Primero, ampliaron su programa de IA para la ciencia con veinte organizaciones, entre ellas la Fundación Nacional de Ciencia de Estados Unidos, el Instituto Wellcome Sanger y el Instituto Francis Crick. Reciben créditos de Claude para repartir entre investigadores.
+
+Lo más curioso es un estándar en vista previa, hecho con el campus Janelia del instituto Howard Hughes, para que los agentes de IA puedan manejar instrumentos de laboratorio de forma segura. Agentes moviendo microscopios, nada mal.
+
+Segundo, y esto es para desarrolladores: el tamaño máximo de una petición a la API de mensajes de Claude pasó de treinta y dos a ciento veintiocho megas. Ojo, el límite de la ventana de contexto sigue igual.
+
+Bueno, pasemos a actualidad tecnológica. Reddit está bravo con Google. Su director, Steve Huffman, dice que en octubre perdieron en promedio más de un millón de visitas semanales desde la búsqueda de Google, y le echa la culpa al modo IA.
+
+Y la respuesta de Reddit es cerrarse. Van a exigir iniciar sesión para ver el sitio completo, para frenar a los que raspan contenido para entrenar modelos. Lo empiezan a probar fuera de Estados Unidos este trimestre. Así que si usas Reddit para investigar sin cuenta, prepárate.
+
+Sus resultados, por cierto, fueron raros: los ingresos subieron cincuenta y tres por ciento, pero los usuarios diarios quedaron por debajo de lo esperado y la acción cayó más de diecisiete por ciento.
+
+Y hablando de bolsa, ayer fue un día pesado para Alphabet. La acción cayó más de doce por ciento y se borraron unos quinientos mil millones de dólares en valor, un récord. El golpe vino por el flujo de caja negativo, de tanto gastar en infraestructura de IA.
+
+En contraste, Microsoft dijo que Azure creció cuarenta y ocho por ciento y Amazon que su nube creció treinta y nueve. La pelea por la nube sigue que arde.
+
+Otra noticia gorda: Binance, el exchange de criptomonedas más grande, sufrió un hackeo de unos seis mil trescientos millones de dólares, probablemente el robo cripto más grande de la historia. La firma TRM Labs lo vincula a hackers de Corea del Norte.
+
+Binance dice que un computador portátil de un ingeniero de operaciones comprometido pudo ser la puerta de entrada, y promete cubrir todas las pérdidas de los usuarios. Imagínate, un solo portátil.
+
+Y rapidito, otras cositas. DoorDash acordó comprar Instacart por unos diecisiete mil millones de dólares. Canadá va a invertir hasta mil seiscientos millones de dólares canadienses en Cohere, a cambio de que la empresa siga con sede en el país e invierta en infraestructura local.
+
+Ahora, seguridad para el celular. Si usas Telegram en Android, actualiza. Investigadores encontraron una falla en las llamadas de voz y video que llevaba unos cuatro años ahí. Al atacante le bastaba con que contestaras una llamada. Afecta desde la versión ocho punto seis punto dos hasta la doce punto diez punto tres, y la corrección llegó en la doce punto diez punto cuatro.
+
+Y ya que estamos, actualiza el navegador. Chrome ciento cincuenta y seis corrigió cincuenta y dos fallas, cuatro críticas, y Firefox ciento cincuenta y nueve corrigió ciento sesenta y siete. Lo curioso es que Google y Mozilla le dieron crédito a Codex Security, de OpenAI, por encontrar parte de esos errores, y Mozilla también trabajó con investigadores de Anthropic. La IA cazando bugs ya es parte del día a día.
+
+Y para cerrar, un dato de búsqueda que me pareció bien curioso. Un estudio de Muck Rack encontró que más del ochenta y cuatro por ciento de lo que citan los asistentes de IA viene de medios y fuentes de terceros, no del sitio propio de las marcas. Y si haces la misma pregunta dos veces el mismo día, ChatGPT repite menos de la mitad de las fuentes. Así que si trabajas en SEO, lo que digan otros de ti pesa más que nunca.
+
+Bueno, gente, si se quedan con tres cosas, que sean estas. Una: Canva y Figma ya tienen modelos propios para editar diseño, y eso va a cambiar cómo trabajamos. Dos: ojo con los permisos que les das a tus agentes; la historia del Pentágono es un buen recordatorio. Y tres: actualicen Telegram y el navegador hoy mismo.
+
+Gracias por acompañarme con este tinto. Que tengan un muy buen viernes, y nos pillamos mañana.
