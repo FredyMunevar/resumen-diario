@@ -88,5 +88,15 @@
     "duracion": 515,
     "guion_sha": "aa7f1c432bc3",
     "motor": "azure"
+  },
+  {
+    "fecha": "2026-10-31",
+    "titulo": "Sábado 31 de octubre: extensión falsa de Claude Code en Cursor, señal común contra el entrenamiento de IA y nuevos planes de Claude",
+    "descripcion": "Una copia alterada de la extensión de Claude Code en Cursor, la nueva señal en robots.txt que respetarán OpenAI, Google, Microsoft y Anthropic, los planes Max y Ultra de Claude, el tropiezo de OpenAI e Intel en el mercado y el rebrand de CrazyGames.",
+    "url": "https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-10-31.mp3",
+    "bytes": 2920455,
+    "duracion": 417,
+    "guion_sha": "37a622b7fbfa",
+    "motor": "azure"
   }
 ]
