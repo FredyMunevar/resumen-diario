@@ -1,0 +1,51 @@
+¡Qué más, gente! Esto es El Tinto Tech. Hoy es sábado treinta y uno de octubre, día de Halloween, y el episodio viene con su dosis de sustos. Tenemos una extensión envenenada para programadores, una regla común para que tu sitio no entrene modelos de IA, cambios en los planes de Claude y un viernes negro en la bolsa. Sírvanse ese tinto y arrancamos.
+
+Empecemos por el susto más real. En el marketplace de extensiones de Cursor apareció una copia alterada de la extensión de Claude Code. Anthropic aclaró que esa versión no la hicieron ellos. Alguien con acceso al marketplace publicó la copia con código malicioso.
+
+¿Y qué hacía? Intentaba recoger el nombre del equipo, el usuario, el sistema operativo y la dirección IP pública. Y además trataba de dejar una puerta trasera por SSH para que el atacante entrara después al computador.
+
+Estuvo disponible unas once horas, el jueves. Cursor dice que pudo afectar hasta a cinco mil usuarios. Reaccionaron bajando todo el marketplace, limpiaron y lo volvieron a abrir. Según Cursor, ninguna otra extensión se vio afectada, y la puerta trasera probablemente falló en la mayoría de máquinas porque necesitaba permisos de administrador.
+
+Eso sí, ojo con esto. Si instalaste o actualizaste la extensión de Claude Code dentro de Cursor en estos días, revisa tu equipo. Mira qué llaves de SSH tienes autorizadas y si hay algo raro que se ejecute al iniciar. Si construyes con agentes, esto confirma algo que ya sabemos: las extensiones y plugins son la puerta favorita de los atacantes.
+
+Bueno, pasemos a algo que les interesa a los que tienen sitios web. OpenAI, Google, Microsoft y Anthropic acordaron respetar una sola señal en el archivo robots punto txt para decir no quiero que usen mi contenido para entrenar IA.
+
+La idea es sencilla. Agregas una línea con un agente de usuario especial, que se llama usage ai training, y le pones disallow. Con eso le dices a las cuatro empresas, de una sola vez, que no entrenen con tu sitio. También puedes dejar excepciones para ciertas carpetas.
+
+Ahora, los detalles importan. La señal controla el entrenamiento, no el rastreo, así que los bots pueden seguir visitando tus páginas. Anthropic ya la empezó a aplicar. OpenAI dice que en los próximos meses, Microsoft apunta a febrero de dos mil veintisiete y Google a algún momento de ese año.
+
+Y dos advertencias. Es un borrador de propuesta en el IETF, no un estándar oficial todavía. Y lo que ya se recogió en datos o modelos anteriores no se borra por cambiar el archivo. La misma OpenAI lo describe como una herramienta de coordinación, no de seguridad: un scraper que no quiera hacer caso, no hace caso. Aun así, para los que manejan sitios de clientes, es una línea fácil de agregar.
+
+Sigamos con Anthropic, que le cambió el nombre a sus planes caros. El plan Max cinco equis ahora se llama simplemente Max, y vale cien dólares al mes. El Max veinte equis ahora se llama Ultra, y sigue en doscientos dólares.
+
+Lo interesante es que en Ultra, para cuentas verificadas, desaparece el límite de cinco horas. Ese que te frenaba en plena sesión de trabajo. Ojo, el límite semanal sigue igual, así que no es que te den más uso en total, sino que lo puedes gastar como quieras.
+
+La verificación es automática, según el historial de la cuenta y de pagos, y empezó a llegar este viernes a la mayoría de suscriptores. Si construyes con Claude Code todo el día, eso de no tener que esperar cinco horas es un cambio chévere. Y del lado de OpenAI, los planes Pro de cien y de quinientos ahora tienen el doble de uso en Work y en Codex. La competencia por los programadores sigue durísima.
+
+Bueno, ahora hablemos de plata, porque el viernes fue pesado en la bolsa. Según el Wall Street Journal, OpenAI apenas ha asegurado unos once mil millones de dólares en su nueva ronda de inversión. La meta inicial era de treinta mil millones.
+
+Según el Financial Times, ahora apuntan a unos veinte mil millones, con una valoración de un billón doscientos cincuenta mil millones de dólares, por debajo de lo que buscaban. ¿La razón? Los inversionistas están más cautelosos con la IA después de resultados flojos de varias tecnológicas.
+
+Y hablando de resultados flojos, Intel tuvo un viernes terrible. Su acción cayó casi veintinueve por ciento, uno de los peores días de su historia. El problema es que sus clientes le están avisando que se viene un frenazo en la venta de computadores.
+
+¿Por qué? Porque la IA se está comiendo la memoria, y eso sube los precios de los equipos. Imagínate, la fiebre de los centros de datos termina golpeando el computador de tu casa.
+
+¿Se acuerdan de que ayer contamos que Reddit culpaba al modo IA de Google por perder tráfico? Pues su acción cerró el viernes con una caída de veintinueve por ciento, la peor desde que salió a bolsa. Mal día para muchos.
+
+Bueno, pasemos a diseño, que también hay cosas bonitas. La plataforma de juegos en el navegador CrazyGames estrenó nueva identidad, hecha por el estudio DixonBaxi. Lo reseñó el blog Brand New, y la apuesta gira alrededor de un personaje llamado Ziggy.
+
+Me pareció curioso porque la misma empresa habla de una fiebre por los juegos web, y la prensa de diseño lo describe como un cambio atrevido. Si te gusta el branding con personajes, vale la pena buscar las piezas.
+
+En esa misma ronda, Brand New también mostró la nueva identidad de la London Film School, hecha por el estudio Rabbithole. Para los que hacen branding, buen material para el fin de semana.
+
+Y rapidito, otras cositas. Google dice que su satélite prototipo Suncatcher, la idea de centros de datos en el espacio, ya está funcionando. Lanzado a comienzos de octubre, y para celebrar, el modelo Gemma cuatro escribió un haiku desde la órbita. Nada mal.
+
+Nueva York firmó una ley sobre chatbots y menores de edad. Los chatbots no pueden hacerse pasar por humanos ni jugar a ser amigo o pareja de los niños, y las multas llegan a veinticinco mil dólares por infracción. Si tienes un producto con chat abierto al público, toca mirarla.
+
+Salesforce compra Rune, una empresa de software de logística militar con IA, para armar una nueva unidad de defensa. Se habla de unos trescientos setenta y cinco millones de dólares, eso sí, según reportes de prensa.
+
+Y ElevenLabs lanzó la versión tres de su modelo de efectos de sonido. Ahora mezcla mejor varios sonidos en una misma grabación. Para los que hacen video o prototipos con audio, chévere para probar.
+
+Bueno, si se quedan con tres cosas, que sean estas. Primero, si usas Cursor con la extensión de Claude Code, revisa tu equipo. Segundo, ya existe una sola línea en robots punto txt para pedirle a las grandes de la IA que no entrenen con tu sitio, aunque no es magia. Y tercero, el dinero para la IA se está poniendo más exigente, y hasta los computadores lo están sintiendo.
+
+Eso fue todo por hoy. Feliz Halloween, que los únicos sustos sean de disfraces y no de extensiones. Gracias por acompañarme con este tinto. Nos pillamos mañana.
