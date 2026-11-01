@@ -1,0 +1,39 @@
+¡Buenas, gente! Bienvenidos a El Tinto Tech. Hoy es domingo primero de noviembre, y arrancamos mes con un episodio cortico, como pide un domingo. Tenemos una regla nueva en Claude Code contra los clones de videojuegos, un ataque hecho con agentes a una empresa que rastrea hackeos, Apple Intelligence llegando por fin a China y un par de cositas de búsqueda. Sírvanse ese tinto y arrancamos.
+
+Empecemos con algo que les interesa a los que hacen juegos con IA. Usuarios de Claude Code notaron una instrucción nueva en el sistema, metida alrededor del veintisiete de octubre. Dice, más o menos, que no construya una recreación de un juego que ya existe, aunque le cambies el nombre o digas que es original.
+
+Anthropic lo confirmó. Addy Osmani, del equipo técnico, dijo que agregaron dos frases al prompt de Claude Code cuando corre con Opus cinco punto cinco. La idea es desanimar las copias de juegos específicos, por su política contra infringir propiedad intelectual.
+
+Eso sí, aclaró que los juegos originales, los juegos de un género, por ejemplo un plataformero cualquiera, y los que hagas con tus propios diseños y recursos, deberían seguir funcionando. Y dijo que van a seguir ajustando ese balance.
+
+¿Por qué ahora? Porque varios estudios independientes andan preocupados por clones hechos con IA que llegan al mercado antes que el juego original. Un estudio hasta canceló una prueba pública de su juego por ese miedo. A mí me parece un gesto razonable, pero la pregunta queda en el aire. ¿Cómo sabe la herramienta si la idea o los recursos son tuyos? Y como dicen varios desarrolladores, el que quiera copiar se va para un modelo abierto sin esas reglas. Si diseñas o prototipas juegos con agentes, ojo con esto, porque el agente podría frenarse si tu prompt suena a juego famoso.
+
+Bueno, pasemos a seguridad, que este fin de semana dejó una bien curiosa. Chainalysis, la empresa que justamente rastrea robos de criptomonedas, contó que la hackearon. Y según ellos, el atacante usó técnicas agénticas ofensivas, o sea, agentes de IA para el ataque.
+
+¿Qué se llevaron? Datos que la empresa llama no sensibles de sus clientes: identificadores de usuario, nombres completos, correos y el rol dentro de cada organización. Chainalysis dice que, por lo que han visto, no tocaron las investigaciones, ni contraseñas en texto plano, ni los secretos de doble factor, ni las sesiones.
+
+Lo que no dijeron es cuántos clientes quedaron afectados, cuándo lo detectaron ni cómo participaron exactamente los agentes. También aclararon que no tiene nada que ver con el robo reciente a Binance. Y lo irónico, contrataron expertos externos y están usando modelos de lenguaje para revisar su propia seguridad. Si construyes con agentes, esta es otra señal de que los atacantes ya los están usando también.
+
+Y en la misma línea, ojo con esto si escribes o lees fanfiction. Archive of Our Own, el sitio gigante de ficción de fans, está caído desde el veintinueve de octubre por un incidente de seguridad. La organización que lo maneja dice que no cree que se hayan robado la base de usuarios, pero no lo puede descartar.
+
+Ahí hay nombres de usuario, correos, direcciones IP y contraseñas cifradas. Calculan que el sitio va a estar fuera entre dos y cuatro semanas, y puede que vuelva primero en modo solo lectura. Las obras no se borraron. Si usabas allá la misma contraseña que en otro lado, cámbiala ya.
+
+Vamos con Apple. Este sábado Apple y Alibaba confirmaron cómo llega Apple Intelligence a China, más o menos dos años después de su lanzamiento en el resto del mundo. El modelo Qwen de Alibaba va a responder dentro de Siri, en las herramientas de escritura y en la inteligencia visual, sin abrir otra app.
+
+Los desarrolladores lo pueden probar desde el cuatro de noviembre en la beta, y el lanzamiento para todos sería en diciembre con iOS veintisiete punto tres. Lo básico, como limpiar fotos o traducir en vivo, corre en el celular con los modelos de Apple. Lo que va a la nube pasa por Qwen, y siempre pide permiso antes de enviar algo.
+
+Eso sí, en China no llega todavía la nueva Siri que mostraron en la conferencia de junio, ni las acciones entre apps. Funciona desde el iPhone quince Pro en adelante. Para los que diseñan producto, es un caso interesante de la misma experiencia corriendo sobre modelos distintos según el país.
+
+Y rapidito, otras cositas de IA. OpenAI lanzó GPT seis Rosalind, un modelo para investigación en ciencias de la vida. Por ahora solo lo pueden usar organizaciones aprobadas en su programa de acceso confiable, así que no lo vas a ver en tu ChatGPT.
+
+Y una actualización. ¿Se acuerdan de que Anthropic radicó los papeles para salir a bolsa? Pues según el Financial Times, Blackstone les dijo a sus inversionistas que Anthropic probablemente no va a recibir una calificación de grado de inversión después de la salida. Esperan una nota en el rango de doble B. Eso podría encarecer la financiación de sus centros de datos. Es una expectativa, no una decisión de las calificadoras, así que tómalo con pinzas.
+
+Cerramos con un bloque corto de búsqueda. Un estudio pequeño, recogido por Search Engine Roundtable, calcula que los resúmenes con IA y el modo IA de Google generan apenas cerca de cero coma nueve por ciento de clics. Es una muestra chica, pero va en la misma dirección que lo que vienen diciendo los medios.
+
+Además, Google estaría pensando en volver a permitir que se vean cien resultados por página con un parámetro de la dirección. Lo había quitado en septiembre del año pasado para frenar el scraping, y eso tenía sufriendo a las herramientas de seguimiento de posiciones. Por ahora es solo una posibilidad.
+
+Y Microsoft ya está mostrando anuncios dentro de los resúmenes de Copilot en Bing, según capturas que circularon. Y sobre la señal común en robots punto txt contra el entrenamiento de IA, Microsoft puso fecha: la va a respetar desde el primero de febrero del próximo año. Y desde marzo dejará de leer las etiquetas viejas de no archivar como si fueran esa preferencia. Si manejas sitios, ponlo en el calendario.
+
+Bueno, si se quedan con tres cosas, que sean estas. Primero, Claude Code ahora se frena si le pides copiar un juego que ya existe, aunque le cambies el nombre. Segundo, los ataques hechos con agentes ya son reales, y hasta los que rastrean hackeos caen. Y tercero, si tienes cuenta en Archive of Our Own o repites contraseñas, cámbialas hoy.
+
+Eso fue todo por este domingo. Gracias por acompañarme con este tinto, que tengan un buen cierre de puente y una gran semana. Nos pillamos mañana.

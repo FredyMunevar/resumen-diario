@@ -526,5 +526,41 @@
   {
     "fecha": "2026-10-31",
     "tema": "ElevenLabs lanza SFX v3"
+  },
+  {
+    "fecha": "2026-11-01",
+    "tema": "Claude Code agrega regla contra recrear juegos existentes (Opus 5.5)"
+  },
+  {
+    "fecha": "2026-11-01",
+    "tema": "Chainalysis hackeada por atacante con técnicas agénticas; datos de clientes expuestos"
+  },
+  {
+    "fecha": "2026-11-01",
+    "tema": "Archive of Our Own (AO3) caído dos a cuatro semanas por incidente de seguridad"
+  },
+  {
+    "fecha": "2026-11-01",
+    "tema": "Apple Intelligence llega a China con Qwen de Alibaba: beta 4 de noviembre, iOS 27.3 en diciembre"
+  },
+  {
+    "fecha": "2026-11-01",
+    "tema": "OpenAI lanza GPT-6 Rosalind para ciencias de la vida con acceso restringido"
+  },
+  {
+    "fecha": "2026-11-01",
+    "tema": "Actualización: Blackstone prevé calificación doble B (no grado de inversión) para Anthropic tras su salida a bolsa"
+  },
+  {
+    "fecha": "2026-11-01",
+    "tema": "Estudio: funciones de IA de Google generan cerca de 0,9 por ciento de clics; Google podría volver a num=100"
+  },
+  {
+    "fecha": "2026-11-01",
+    "tema": "Bing muestra anuncios en resúmenes de Copilot"
+  },
+  {
+    "fecha": "2026-11-01",
+    "tema": "Actualización: Microsoft respetará la señal de robots.txt contra entrenamiento desde el 1 de febrero de 2027 y dejará NoArchive/NoCache en marzo"
   }
 ]
