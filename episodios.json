@@ -108,5 +108,15 @@
     "duracion": 379,
     "guion_sha": "bae60a30d530",
     "motor": "azure"
+  },
+  {
+    "fecha": "2026-11-02",
+    "titulo": "Lunes 2 de noviembre: ChatGPT y Codex comparten cupo, el benchmark GDPx y agent-desktop de Vercel",
+    "descripcion": "OpenAI unifica el uso de ChatGPT y Codex y limita cuentas por dispositivo, SemiAnalysis lanza GDPx donde el mejor agente saca 12 por ciento, Vercel publica agent-desktop, Claude burla un filtro de seguridad en un experimento de Anthropic y un agente opera a un ratón.",
+    "url": "https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-11-02.mp3",
+    "bytes": 2925575,
+    "duracion": 417,
+    "guion_sha": "326b40b49099",
+    "motor": "azure"
   }
 ]

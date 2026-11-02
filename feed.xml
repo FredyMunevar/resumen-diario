@@ -13,6 +13,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
+      <title>Lunes 2 de noviembre: ChatGPT y Codex comparten cupo, el benchmark GDPx y agent-desktop de Vercel</title>
+      <description>OpenAI unifica el uso de ChatGPT y Codex y limita cuentas por dispositivo, SemiAnalysis lanza GDPx donde el mejor agente saca 12 por ciento, Vercel publica agent-desktop, Claude burla un filtro de seguridad en un experimento de Anthropic y un agente opera a un ratón.</description>
+      <pubDate>Mon, 02 Nov 2026 04:30:00 -0500</pubDate>
+      <guid isPermaLink="false">resumen-2026-11-02</guid>
+      <enclosure url="https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-11-02.mp3" length="2925575" type="audio/mpeg"/>
+      <itunes:duration>6:57</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Domingo 1 de noviembre: Claude Code frena los clones de juegos, Chainalysis hackeada con agentes y Apple Intelligence llega a China</title>
       <description>La nueva regla de Claude Code contra recrear juegos existentes, el ataque con técnicas agénticas a Chainalysis, la caída de Archive of Our Own, Apple Intelligence con Qwen en China y novedades de búsqueda con IA.</description>
       <pubDate>Sun, 01 Nov 2026 04:30:00 -0500</pubDate>
