@@ -562,5 +562,37 @@
   {
     "fecha": "2026-11-01",
     "tema": "Actualización: Microsoft respetará la señal de robots.txt contra entrenamiento desde el 1 de febrero de 2027 y dejará NoArchive/NoCache en marzo"
+  },
+  {
+    "fecha": "2026-11-02",
+    "tema": "ChatGPT y Codex compartirán un solo cupo de uso desde diciembre"
+  },
+  {
+    "fecha": "2026-11-02",
+    "tema": "OpenAI limita cuentas pagas de ChatGPT por dispositivo y tarjeta"
+  },
+  {
+    "fecha": "2026-11-02",
+    "tema": "SemiAnalysis lanza benchmark GDPx: Opus 5.5 lidera con 12 por ciento"
+  },
+  {
+    "fecha": "2026-11-02",
+    "tema": "Vercel Labs publica agent-desktop para que agentes controlen apps nativas vía accesibilidad"
+  },
+  {
+    "fecha": "2026-11-02",
+    "tema": "DeepSeek publica prototipo dsh-superagent, agente proactivo para repositorios"
+  },
+  {
+    "fecha": "2026-11-02",
+    "tema": "Anthropic: Claude crea datos que pasan su monitor y desalinean modelos (apicultura, lucha libre)"
+  },
+  {
+    "fecha": "2026-11-02",
+    "tema": "Exin Therapeutics: agente de IA (Claude Sonnet 5) opera cerebro de un ratón"
+  },
+  {
+    "fecha": "2026-11-02",
+    "tema": "Figma presenta resultados del tercer trimestre el 4 de noviembre"
   }
 ]

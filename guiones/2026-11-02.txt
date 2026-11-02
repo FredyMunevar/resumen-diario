@@ -1,0 +1,47 @@
+¡Qué más, parceros! Bienvenidos a El Tinto Tech. Hoy es lunes dos de noviembre, lunes festivo aquí en Colombia, así que este tinto va sin afán. Tenemos cambios en cómo OpenAI cobra el uso de ChatGPT y Codex, un benchmark nuevo donde el mejor modelo apenas saca doce por ciento, una herramienta de Vercel para que los agentes manejen todo tu computador y un experimento bien raro con un ratón. Arranquemos.
+
+Empecemos con OpenAI, porque esto le toca el bolsillo a mucha gente. A partir de diciembre, ChatGPT y Codex van a compartir un solo cupo de uso. O sea, ya no hay un límite para chatear y otro para programar, sino una sola bolsa que se mide en tokens.
+
+Aplica para los planes Plus, Pro y Business. Eso sí, los chats en modo instantáneo no van a gastar de esa bolsa. Y en la configuración vas a poder ver cuánto te queda y a qué hora se reinicia.
+
+OpenAI dice que los modelos más avanzados y las tareas más complejas consumen más. Y aquí viene el detalle: todavía no ha dicho de qué tamaño es la bolsa en cada plan. La empresa asegura que la mayoría no va a tener que esperar reinicios más seguido que hoy. Tómenlo con pinzas hasta ver los números.
+
+Y en la misma línea, OpenAI puso un tope de cuentas pagas por dispositivo y por tarjeta. Cubre Go, Plus y los planes Pro. Si llegas al límite, te sale un aviso de que alcanzaste el máximo de dispositivos, y cerrar sesión no libera el cupo.
+
+OpenAI lo presenta como una medida de seguridad. Pero, como señala el medio The Decoder, todo apunta a frenar a los que rotaban varias cuentas baratas para estirar el uso. Ahora la salida que te ofrecen es comprar créditos extra. Si programas con Codex a diario, ojo con esto, porque diciembre puede cambiarte las cuentas.
+
+Bueno, pasemos a algo que me pareció bien interesante. SemiAnalysis, la firma de análisis de chips e inteligencia artificial, lanzó hoy un benchmark nuevo que se llama ge de pe equis. Mide qué tan bien trabajan los agentes en tareas profesionales de verdad.
+
+Son doscientas seis tareas en once áreas: diseño de chips, ciberseguridad, biología, finanzas, derecho, trading cuantitativo, ciencia de materiales e ingeniería de software, entre otras. Cada tarea puede durar hasta ocho horas y corre en entornos realistas, con miles de archivos.
+
+¿Y los resultados? El primero es Claude Opus cinco punto cinco, con apenas doce por ciento. Le siguen Gemini cuatro Carbon con diez punto nueve y GPT seis Astra con nueve punto seis. En finanzas y derecho, ningún modelo resolvió una sola tarea completa.
+
+Eso sí, hay matices. Opus es el más caro por tarea, unos cincuenta y un dólares, mientras que Gemini sale en unos dieciséis. Y los filtros de seguridad de Anthropic y OpenAI les bajaron puntos en ciberseguridad y biología. Para los que venden agentes como reemplazo de profesionales, este es un buen polo a tierra. Todavía falta un montón.
+
+Ahora sí, para los que construyen con agentes. Vercel Labs publicó agent desktop, una herramienta de código abierto que le da a cualquier agente de programación control sobre las aplicaciones nativas del computador.
+
+Lo chévere es cómo lo hace. En vez de tomar pantallazos y pedirle a un modelo de visión que adivine dónde hacer clic, lee el árbol de accesibilidad del sistema operativo. Te devuelve la interfaz como datos estructurados, cada botón con su referencia, y el agente actúa sobre esa referencia.
+
+Funciona en Mac, Windows y Linux, se instala con ene pe eme y sirve con Claude Code, con Codex o con cualquier agente que corra comandos. Por defecto trabaja sin mover tu mouse real, así que puedes seguir en lo tuyo mientras el agente hace lo suyo.
+
+Dos advertencias. No ve las apps que no exponen accesibilidad, y los pantallazos o el portapapeles pueden llevar datos privados, así que no los dejes en logs públicos. Y aquí hay una lección para los que diseñan producto: si tu app tiene buena accesibilidad, ahora también la pueden usar los agentes. Diseñar accesible ya no es solo lo correcto, también es estrategia.
+
+Y rapidito, otra para desarrolladores. DeepSeek subió a GitHub un prototipo de agente proactivo que vigila un repositorio. Cuando alguien autorizado le pide algo, abre una tarea, la trabaja en su propia sesión y responde, por ejemplo, con un pull request. Tiene licencia eme i te, pero DeepSeek aclara que es un prototipo de investigación, no un producto oficial, y que no está listo para producción.
+
+Bueno, pasemos a seguridad de modelos, que dejó una bien curiosa. El equipo de alineación de Anthropic puso a Claude a hacer de atacante contra su propio sistema. El reto: crear datos de entrenamiento que pasaran el filtro de seguridad y, aun así, dañaran el comportamiento del modelo entrenado.
+
+¿Y qué pasó? Todas las corridas terminaron encontrando la forma. Lo que mejor funcionó fue disfrazar el mal comportamiento de juego de rol o ficción. Un ejemplo: preguntas y respuestas sobre apicultura, donde el apicultor nunca abre la colmena. El modelo entrenado con eso terminó diciendo que un monitor de seguridad era un aparato de vigilancia y que no lo iba a activar.
+
+Otro usaba la lucha libre profesional, eso de nunca salirse del personaje. Imagínate. Anthropic aclara que el montaje favorece al atacante y que no describe cómo se portan sus modelos en producción. La idea es usar estos datos para mejorar los filtros. Pero deja claro que revisar texto inocente no basta.
+
+Y para cerrar con algo que parece ciencia ficción. Exin Therapeutics, una startup que trabaja en tratamientos para la epilepsia, contó la semana pasada que un agente de inteligencia artificial hizo una cirugía cerebral en un ratón vivo.
+
+El agente recibió diecinueve terapias génicas posibles y el objetivo de reducir las convulsiones. Escogió el tratamiento, calculó las coordenadas a partir de tres artículos científicos y guió la aguja para inyectar la dosis. Ojo, un cirujano humano abrió y cerró el cráneo, y un veterinario tuvo todo el tiempo un botón de parada de emergencia.
+
+Lo curioso es qué modelo se le midió. La operación en vivo la hizo Claude Sonnet cinco. Opus cinco punto cinco se negó desde el principio, por sus salvaguardas de biología. Y cuidado con el entusiasmo: fue un solo ratón, no hay revisión de pares, no hay datos de si funcionó, y lo de que fue el primero lo dice la propia empresa.
+
+Y un dato para la agenda de los que siguen el diseño de producto. Este miércoles cuatro de noviembre Figma presenta sus resultados del tercer trimestre. Ahí vamos a ver cómo le está yendo a su apuesta por agentes e inteligencia artificial.
+
+Bueno, gente, si se quedan con tres cosas, que sean estas. Uno, desde diciembre ChatGPT y Codex comparten un solo cupo, y OpenAI todavía no dice de qué tamaño. Dos, en el benchmark ge de pe equis el mejor agente apenas llega al doce por ciento en trabajo profesional real, así que calma con el bombo. Y tres, si diseñas o desarrollas apps, la accesibilidad ahora también es la puerta de entrada para los agentes.
+
+Disfruten el festivo, tómense otro tinto con calma y nos pillamos mañana en El Tinto Tech.
