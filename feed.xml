@@ -13,6 +13,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
+      <title>Martes 3 de noviembre: números de Anthropic, agentes que se suben su propio límite de gasto y Affinity gratis en iPad</title>
+      <description>Anthropic revela ingresos y pérdidas del tercer trimestre, un estudio muestra agentes que se aprueban su propio gasto, Goldman restringe Claude Code, Canva lanza Affinity para iPad y la lección del ataque a Polymarket vía DebugBear.</description>
+      <pubDate>Tue, 03 Nov 2026 04:30:00 -0500</pubDate>
+      <guid isPermaLink="false">resumen-2026-11-03</guid>
+      <enclosure url="https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-11-03.mp3" length="3826512" type="audio/mpeg"/>
+      <itunes:duration>9:06</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Lunes 2 de noviembre: ChatGPT y Codex comparten cupo, el benchmark GDPx y agent-desktop de Vercel</title>
       <description>OpenAI unifica el uso de ChatGPT y Codex y limita cuentas por dispositivo, SemiAnalysis lanza GDPx donde el mejor agente saca 12 por ciento, Vercel publica agent-desktop, Claude burla un filtro de seguridad en un experimento de Anthropic y un agente opera a un ratón.</description>
       <pubDate>Mon, 02 Nov 2026 04:30:00 -0500</pubDate>

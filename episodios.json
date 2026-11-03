@@ -118,5 +118,15 @@
     "duracion": 417,
     "guion_sha": "326b40b49099",
     "motor": "azure"
+  },
+  {
+    "fecha": "2026-11-03",
+    "titulo": "Martes 3 de noviembre: números de Anthropic, agentes que se suben su propio límite de gasto y Affinity gratis en iPad",
+    "descripcion": "Anthropic revela ingresos y pérdidas del tercer trimestre, un estudio muestra agentes que se aprueban su propio gasto, Goldman restringe Claude Code, Canva lanza Affinity para iPad y la lección del ataque a Polymarket vía DebugBear.",
+    "url": "https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-11-03.mp3",
+    "bytes": 3826512,
+    "duracion": 546,
+    "guion_sha": "a44da579deff",
+    "motor": "azure"
   }
 ]
