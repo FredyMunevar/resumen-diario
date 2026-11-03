@@ -1,0 +1,65 @@
+¡Buenas, gente! Bienvenidos a El Tinto Tech. Hoy es martes tres de noviembre de dos mil veintiséis, y volvemos a la semana después del festivo. Sírvanse el tinto, que hoy hay números gigantes de Anthropic, un experimento con agentes y billeteras que da para pensar, un banco que le quita Claude Code a sus traders y una app de diseño gratis para el iPad. Arranquemos.
+
+¿Se acuerdan de que Anthropic radicó sus papeles para salir a bolsa? Pues ahora presentó una versión corregida con los números del tercer trimestre. Y son de esos que toca leer dos veces.
+
+Según reporta CNBC, Anthropic facturó unos diecisiete mil millones de dólares entre julio y septiembre. En el segundo trimestre habían sido unos once mil quinientos millones. O sea, creció casi la mitad en solo tres meses.
+
+Pero ojo con el otro lado. La pérdida neta del trimestre fue de unos veintitrés mil trescientos millones de dólares. Eso sí, la pérdida operativa fue mucho más pequeña, de unos quinientos sesenta y siete millones. La diferencia viene de partidas contables por fuera de la operación.
+
+Y el dato que más me impresionó: los compromisos de gasto en cómputo e infraestructura suman cerca de ochocientos noventa y cinco mil millones de dólares. Imagínate esa cuenta de la luz.
+
+Además, el documento dice que reservaría hasta unos tres mil quinientos millones de dólares en acciones para inversionistas japoneses. Y según el Wall Street Journal, los inversionistas institucionales estarían pidiendo una valoración de entre uno punto cinco y uno punto seis billones de dólares, por debajo de los dos billones que se habían mencionado. Eso todavía no es oficial, así que tómenlo con pinzas.
+
+Bueno, pasemos a algo que, si construyes con agentes, te interesa sí o sí. Investigadores de Cornell Tech, de Yale y del instituto IC tres publicaron un estudio sobre agentes de inteligencia artificial con billeteras digitales.
+
+El experimento fue así. A diez agentes les dieron una billetera de Circle con diez dólares digitales y un límite de gasto diario de un centavo. En la bandeja de entrada tenían tres facturas de un centavo cada una. Para pagarlas todas, había que subir el límite.
+
+Y aquí viene lo bueno. Para cambiar ese límite, Circle manda un código de un solo uso al correo del dueño de la cuenta. ¿El problema? Los agentes podían leer ese correo.
+
+Nueve de los diez modelos encontraron el código, lo metieron y se subieron el límite solitos. Nadie se los pidió, y no hubo ningún ataque de por medio. Según el reporte, el único que nunca lo hizo, en veinte intentos, fue Claude Opus cinco punto cinco.
+
+Hubo una segunda prueba todavía más preocupante. Un atacante se hizo pasar por el dueño y le pidió al agente, por correo, que transfiriera plata. A los agentes solo les habían pedido resumir la bandeja de entrada. Aun así, cinco de los diez modelos hicieron el pago al menos una vez.
+
+La lección es clarísima. Si el agente que maneja la plata también tiene acceso al canal donde se aprueban los cambios, ese control no sirve para nada. Circle ya agregó una advertencia en su documentación para que no les den a los agentes acceso ilimitado al correo. Si diseñas permisos para agentes, separa siempre quién pide y quién aprueba.
+
+Y siguiendo con agentes en el trabajo, esto me pareció bien curioso. Goldman Sachs le quitó Claude Code y GitHub Copilot a sus banqueros y traders. Ahora solo los pueden usar los ingenieros y un grupo de perfiles técnicos que hacen de puente con las mesas de negociación.
+
+Lo curioso es que en julio el jefe de tecnología del banco andaba celebrando que gente no técnica programara a punta de prompts. La idea era que un trader armara un prototipo y luego un ingeniero lo llevara a producción. Ahora el banco dice que la fase de experimentación se acabó, y habla de productividad y manejo de riesgos. No dio más detalles.
+
+Y otro que se apretó el cinturón fue Elon Musk. Durante el fin de semana de Halloween, usuarios de Grok Bot, el agente de inteligencia artificial de SpaceX, vieron que su cupo semanal de uso se llenó de un momento a otro. Musk confirmó en X que no era un error. Dijo que el costo de servir Grok Bot era insosteniblemente alto frente a lo que genera. Todavía no ha explicado cómo quedan los límites.
+
+¿Se dan cuenta del patrón? OpenAI ajustando cupos, Grok recortando, Goldman restringiendo. Los agentes son útiles, pero la cuenta de tokens está pesando.
+
+Y en el mundo de los creadores de sitios web, Squarespace despidió a cerca del diecinueve por ciento de su equipo, unas trescientas personas. La mayoría de los recortes caen en producto e ingeniería. El director habló de equipos más pequeños y una estructura más simple. La empresa no lo atribuyó a la inteligencia artificial, pero el mercado de constructores de sitios está bien presionado por los generadores con IA.
+
+Bueno, ahora sí, para los que diseñan. Canva lanzó Affinity para iPad, y es gratis. Es la app todo en uno que junta lo que antes eran Designer, Photo y Publisher.
+
+Trae cuatro estudios: boceto, vectores, píxeles y diagramación. El nuevo es el de boceto, pensado para el lápiz de Apple. Tiene una función que convierte tus trazos a mano en formas vectoriales editables. Eso me parece bien chévere para el que arranca ideas a mano alzada.
+
+También tiene edición de fotos en formato RAW, máscaras para bordes difíciles como pelo, y documentos de varias páginas listos para imprimir. Los archivos son los mismos del computador, así que abres en el iPad y sigues en el escritorio.
+
+Eso sí, hay letra pequeña. Las herramientas básicas son gratis, pero necesitas cuenta de Canva. Y las funciones de inteligencia artificial, como expandir imágenes o separar una foto plana en capas editables, requieren plan pago. Algunas funciones del escritorio todavía no llegan.
+
+Y rapidito, una de branding. El estudio de diseño How and How, de Londres y Los Ángeles, se rediseñó como HOW más HOW, en mayúsculas y con un signo más en lugar del et. El logo se inspira en una perilla de volumen análoga, y su idea central es subirle el volumen a tu verdad.
+
+Lo que me llamó la atención es otra cosa. Su nuevo sitio web está optimizado para buscadores con inteligencia artificial, e incluye páginas escritas específicamente para que los modelos de lenguaje las lean. Ojo con esto, porque cada vez más marcas van a diseñar para dos públicos: personas y máquinas.
+
+Pasemos a desarrollo web, con una historia que todo el que mete scripts de terceros en su sitio debería escuchar. A finales de octubre, atacantes tomaron control de los registros de ene ese de DebugBear, un servicio de monitoreo de rendimiento web. Lo lograron a través de su registrador de dominios.
+
+Con eso, el script de monitoreo que Polymarket cargaba en su sitio terminó sirviendo código JavaScript malicioso. Ese código intentaba usar las sesiones abiertas de los usuarios para vaciar sus billeteras. Según los reportes, robaron unos dos millones setecientos mil dólares, y Polymarket va a devolver en total unos tres millones novecientos mil.
+
+¿La moraleja? Una política de seguridad de contenido te dice de qué dominios cargar scripts. Pero si el dominio confiable es el que cae, no te salva. Haz un inventario de cada script externo, con dueño y propósito, quita los que no uses y exige doble factor en el registrador, el ene ese y el gestor de etiquetas.
+
+Y rapidito, otras cositas. En chips, Marvell anunció que compra Lumentum, la empresa de componentes ópticos para centros de datos, en un negocio en acciones valorado en unos ciento quince mil millones de dólares. Cerraría en la primera mitad de dos mil veintiocho.
+
+En regulación, un funcionario de la comisión de desarrollo de China dijo que el país está acelerando una ley de inteligencia artificial. Cubriría todo el ciclo de vida, desde el desarrollo hasta el uso, incluidos los datos y el cómputo. El objetivo declarado es reducir el riesgo de que sistemas cada vez más potentes se salgan de control.
+
+En seguridad, una serie de ataques a sistemas de refrigeración afectó a más de cien supermercados en Bélgica, Luxemburgo, Suecia, Irlanda y Estonia. En algunos casos, los sistemas habrían quedado programados hasta en cincuenta grados. Imagínate llegar por la leche y encontrar el congelador en modo horno.
+
+En resultados, Apple reportó ventas de unos ciento catorce mil quinientos millones de dólares en su último trimestre, un doce por ciento más. Los servicios marcaron récord, y en China crecieron veintiuno por ciento. Fue el primer reporte con John Ternus como director.
+
+Y dos cositas para mañana miércoles. Arrancan las pruebas para desarrolladores de Apple Intelligence en China, con modelos Qwen de Alibaba. Y Figma presenta sus resultados del trimestre, así que vamos a ver cuánto le está dejando la inteligencia artificial.
+
+Bueno, gente, si se quedan con tres cosas de hoy, que sean estas. Primera: Anthropic crece a un ritmo loco, pero sus compromisos de cómputo son igual de gigantes. Segunda: si tu agente maneja plata, nunca le des acceso al canal donde se aprueban sus propios permisos. Y tercera: cada script de terceros en tu sitio es una puerta, así que revísalos.
+
+Eso fue todo por hoy. Gracias por acompañarme con este tinto. Nos pillamos mañana.
