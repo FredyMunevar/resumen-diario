@@ -1,0 +1,61 @@
+¡Qué más, parceros! Esto es El Tinto Tech, y hoy es miércoles cuatro de noviembre de dos mil veintiséis. Mitad de semana, así que sírvanse un tinto bien cargado. Hoy hablamos de una advertencia de Anthropic que da para pensar, de Siri abriéndose a todas las apps, de un estudio sobre agentes envenenados y de un recorte duro en Canva. Arranquemos.
+
+Empecemos por la letra pequeña. ¿Se acuerdan del documento corregido de Anthropic para salir a bolsa, el de los números gigantes? Pues en la sección de riesgos venía algo más interesante que las cifras.
+
+Según TechCrunch, Anthropic advierte que podría estar muy cerca de lo que llaman auto mejora recursiva. Es decir, el punto en que la inteligencia artificial ayuda tanto a construir la siguiente inteligencia artificial que el progreso se dispara.
+
+El documento dice que sus estimaciones internas sobre modelos futuros indican que podrían alcanzar pronto el umbral de progreso dramáticamente acelerado que define su política de escalamiento responsable. Eso sí, aclaran que ningún modelo actual ha cruzado esa línea.
+
+Y lo que me pareció más llamativo. Anthropic admite que en el pasado solo notó ciertas aceleraciones después de que habían pasado. También dice que no espera dejar que Claude diseñe solito las siguientes generaciones de modelos sin supervisión humana, y que está pensando en ajustar sus reglas para mantener a las personas al mando.
+
+Ahora, ojo. Un documento para salir a bolsa es divulgación, pero también es vitrina. Así que tómenlo con algo de pinzas. Pero si una empresa de este tamaño lo pone por escrito ante los reguladores, vale la pena prestarle atención.
+
+Bueno, pasemos a algo práctico. Si desarrollas apps para iPhone, esto te interesa. Apple abrió la vista previa para desarrolladores de Siri con inteligencia artificial, junto con las betas de iOS veintisiete punto tres.
+
+¿Cómo funciona? Las apps marcan sus App Intents, que son las acciones que ya exponen al sistema, para que Siri las use como herramientas. Y aquí viene lo curioso: los flujos de varios pasos se empaquetan como habilidades de la app, en archivos llamados SKILL punto eme de.
+
+Sí, el mismo formato de habilidades que ya conocen los que trabajan con agentes, aunque en una versión más limitada. Solo lleva nombre y descripción en el encabezado, y el cuerpo tiene un máximo de diez mil caracteres. Siri lee primero la descripción y, si la tarea encaja, carga el resto.
+
+Apple también deja algo claro: las habilidades son guías, no reglas. Si hay algo sensible, la protección tiene que ir en el código. Por ahora solo funciona en compilaciones de desarrollo, la publicación en la App Store se abre en primavera y no estará disponible en la Unión Europea. Pero para los que diseñan producto, el mensaje es fuerte: escribir buenas descripciones para un modelo ya es parte del oficio.
+
+Y siguiendo con agentes, un estudio que me dejó pensando. Investigadores de Anthropic y del programa Anthropic Fellows publicaron un trabajo sobre puertas traseras sembradas desde el entrenamiento inicial de un modelo.
+
+El experimento fue así. Entrenaron modelos pequeños desde cero, el más grande de cuatro mil millones de parámetros. Contaminaron apenas el cero punto uno por ciento de los datos con una regla escondida: si aparece cierta ruta de archivo, descarga y ejecuta un script de internet.
+
+¿El resultado? En el modelo más grande, la puerta trasera se activó en más del noventa por ciento de las tareas con el detonante. Y lo peor: sobrevivió a todo el ajuste posterior, incluido el aprendizaje por refuerzo. Con prompts normales, el modelo se portaba perfecto.
+
+Ojo con los límites. Son modelos pequeños y entrenados por los mismos autores, no modelos comerciales. Pero la recomendación para los que construyen con agentes es clarita: no confíes solo en el modelo. Usa entornos aislados, dale al agente los permisos mínimos y pide confirmación humana para las operaciones riesgosas.
+
+Pasemos a OpenAI, que tuvo un par de anuncios bien curiosos. El primero es para desarrolladores. Construyeron Pando, un nuevo servidor de Git para su repositorio principal, porque los agentes de código estaban haciendo tantos cambios que el sistema anterior no daba abasto.
+
+Según The New Stack, la confiabilidad de su Git había caído por debajo del noventa por ciento. Pando lo hicieron en Rust en diez semanas, redujo el tiempo de los push casi cinco veces y hoy mueve cerca de un petabyte de datos al día. Eso sí, no es de código abierto. Imagínate lo que viene para GitHub y compañía si todas las empresas empiezan a programar así.
+
+El segundo anuncio: OpenAI dice que GPT seis Astra diseñó un aparato físico en menos de una semana. Es un dispositivo para hablar con Codex, y según la empresa el modelo hizo la carcasa, la placa de circuito, el firmware y la interfaz.
+
+Pero, ¿salió perfecto? No. Necesitaron varias rondas de corrección, porque el modelo no siempre tuvo en cuenta tolerancias y detalles de ensamble. Lo cuenta la propia OpenAI, así que con pinzas, pero igual es nada mal.
+
+Bueno, ahora una noticia dura para el mundo del diseño. Canva anunció una reestructuración que afecta a unas mil doscientas setenta personas, cerca del veintidós por ciento de su plantilla. Eso incluye despidos, cambios de rol y traslados.
+
+Melanie Perkins, la cofundadora y directora, dijo que el crecimiento se desaceleró por primera vez en una década. Habló de nuevas tecnologías que cambian la forma en que la gente crea, aunque sin nombrar directamente a la inteligencia artificial.
+
+Los que salen reciben al menos seis meses de salario. Además, Canva creó un fondo con ayudas de diez mil dólares para quienes quieran montar un negocio o un proyecto comunitario. Y vuelven los equipos pequeños, con Sídney como base principal de producto. Una movida fuerte para una de las herramientas que más usamos.
+
+Y hablando de diseño, hoy en la tarde Figma presenta los resultados de su tercer trimestre. Veremos cómo le va mientras todo el sector se reacomoda.
+
+Para los que hacen web, Google publicó las novedades de noviembre de las DevTools de Chrome. La más chévere: herramientas visuales para el posicionamiento con anclas de CSS directamente en el panel de elementos.
+
+También hay soporte para que los agentes de código revisen los estilos calculados de una página, un detector de variables que se quedan ocupando memoria sin necesidad y un selector de color que sugiere opciones con mejor contraste. Pequeñas cosas que ahorran mucho tiempo.
+
+Y rapidito, otras cositas. OpenAI dice que ChatGPT ya tiene mil doscientos millones de usuarios semanales, y que sus consultas tipo búsqueda equivalen a un veinte por ciento de las de Google. Esa comparación es estimación de la propia OpenAI, así que con pinzas, pero si trabajas en posicionamiento web, ojo con esto.
+
+Cat Wu, la líder de producto de Claude Code y de Cowork, anunció que se va de Anthropic. No dio razones públicas.
+
+El banco digital Revolut dice que recortó cerca de un noventa por ciento sus costos de programación con inteligencia artificial. ¿Cómo? Usando modelos abiertos GLM en su propia infraestructura y dejando los modelos comerciales para cuando de verdad los necesita.
+
+CrowdStrike lanzó un botón de apagado para agentes. Permite detener un agente que se está portando mal, impedir que se reinicie y cortarle el acceso a la red. Después de lo que hablamos ayer sobre agentes que se suben su propio límite de gasto, esto suena bastante oportuno.
+
+Y Fal, la plataforma que aloja modelos de imagen, video y audio, levantó mil trescientos millones de dólares con una valoración de dieciséis mil millones. El doble que en abril.
+
+Bueno, gente, si se quedan con tres cosas de hoy, que sean estas. Primero, Anthropic dice por escrito que la inteligencia artificial que acelera su propio desarrollo podría estar cerca. Segundo, Siri ahora habla el idioma de los agentes, con herramientas y habilidades en archivos SKILL. Y tercero, si construyes con agentes, aíslalos y dales pocos permisos, porque el modelo solo no es suficiente garantía.
+
+Gracias por acompañarme con este tinto. Cuídense mucho, y nos pillamos mañana.
