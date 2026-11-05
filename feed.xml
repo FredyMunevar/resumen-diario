@@ -13,6 +13,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
+      <title>Jueves 5 de noviembre: OpenAI y las 948 fallas de Linux, GIF en ChatGPT y los números de Figma</title>
+      <description>Agentes de OpenAI encuentran 948 fallas en Linux, ChatGPT Images 2.6 trae GIF y referencias, Figma muestra el auge de su servidor MCP, Kimi K3.1 Pro libera pesos y más.</description>
+      <pubDate>Thu, 05 Nov 2026 04:30:00 -0500</pubDate>
+      <guid isPermaLink="false">resumen-2026-11-05</guid>
+      <enclosure url="https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-11-05.mp3" length="2997987" type="audio/mpeg"/>
+      <itunes:duration>7:08</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Miércoles 4 de noviembre: Anthropic y la auto mejora recursiva, Siri abierta a desarrolladores y recorte en Canva</title>
       <description>Anthropic advierte que podría acercarse a la auto mejora recursiva, Apple abre Siri a las apps con App Intents y habilidades SKILL, un estudio de puertas traseras en agentes, Pando de OpenAI y la reestructuración de Canva.</description>
       <pubDate>Wed, 04 Nov 2026 04:30:00 -0500</pubDate>
