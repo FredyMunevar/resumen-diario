@@ -1,0 +1,65 @@
+¡Buenas, gente! Bienvenidos a El Tinto Tech. Hoy es jueves cinco de noviembre de dos mil veintiséis, y ya casi le vemos la cara al fin de semana. Hoy traemos un experimento de OpenAI que encontró casi mil fallas en Linux, imágenes animadas en ChatGPT, los números de Figma y un modelo abierto gigante desde China. Sírvanse el tinto y arrancamos.
+
+Empecemos por la noticia que más me impresionó. OpenAI publicó los resultados de un sistema de agentes que busca, explota y corrige fallas de seguridad en el núcleo de Linux, solito.
+
+El montaje funciona por etapas. Un grupo de agentes decide qué partes del código vale la pena revisar. Otro grupo busca errores, y en doce horas encontró más de dos mil trescientos posibles fallos.
+
+Después, otros agentes intentan reproducir cada falla en máquinas virtuales aisladas. Y al final, otros escriben ataques que funcionan de verdad. Resultado: novecientas cuarenta y ocho vulnerabilidades distintas que permiten volverse administrador del sistema.
+
+¿Cuánto costó? Algo más de un millón doscientos mil dólares en uso de la API, con un modelo que todavía no han lanzado. Eso da como mil doscientos dólares por cada ataque. Imagínate lo barato que sale eso comparado con un equipo humano.
+
+Según Help Net Security, los agentes además usaron diez técnicas que ni los investigadores ni expertos externos habían visto antes. Esos detalles no los publicaron, por seguridad.
+
+Eso sí, OpenAI dice que está trabajando con los mantenedores de Linux para corregir todo. A los diez días ya había sesenta y una fallas parchadas, y cientos de reportes en camino. Ojo, son cifras de la propia empresa, así que tómalo con pinzas.
+
+Y la lección que deja OpenAI es dura. Si tienes un servidor Linux desactualizado con una cuenta de bajo nivel, asume que un atacante con recursos ya puede tener control total. Así que a actualizar, y a aislar lo que corren tus agentes en entornos separados.
+
+Bueno, pasemos a algo más alegre. OpenAI también lanzó Images dos punto seis, la nueva versión de su generador de imágenes en ChatGPT y en Codex.
+
+La novedad más llamativa es que ahora crea GIF animados. Tomas un personaje, una mascota o una foto de producto, y lo conviertes en una animación corta. Para los que hacen contenido de marca, esto les va a ahorrar trabajo.
+
+También puedes guardar imágenes de referencia, por ejemplo de ti, de tu perro o de un personaje, y reutilizarlas sin volver a subirlas. La idea es mantener consistentes los personajes y los detalles de marca entre una edición y otra. Y OpenAI dice que ahora las imágenes salen un cincuenta por ciento más rápido.
+
+Para los que construyen, en la API llegan dos modelos. Flare, pensado para velocidad y diseños tipo póster o producto. Y Sunburst, para más detalle y ediciones más consistentes. Ah, y hay exportación en ese ve ge, que para diseñadores es una muy buena noticia.
+
+Ahora sí, hablemos de Figma, porque presentó resultados del tercer trimestre. Ingresos de trescientos noventa y un millones de dólares, cuarenta y tres por ciento más que hace un año. Y subió su proyección para todo el año.
+
+Pero lo interesante para nosotros no es la plata, es cómo se está usando. Según Figma, el sesenta y cinco por ciento de sus clientes grandes usa el agente de Figma cada semana.
+
+Y su servidor eme ce pe es el producto que más rápido crece. Dylan Field, el jefe de Figma, dice que ya tiene cerca de un millón de usuarios semanales, y que su uso se triplicó en un trimestre. Si conectas Figma con tus agentes de código, no estás solo, parcero.
+
+Field también soltó una frase que da para debate: el diseño es el nuevo código. Su argumento es que programar ya no es el cuello de botella, y que el valor se mueve hacia diseñar qué construir.
+
+Además, Code Layers, que mete código funcionando dentro del lienzo de Figma, ya llegó a todos los usuarios. Eso sí, al mercado no le encantó del todo, y la acción bajó cerca de seis por ciento después del reporte.
+
+Y otra cosa que dijo Field: por ahora hay buenas razones para seguir pagando por puestos, pero Figma está apostando con todo al consumo de créditos de inteligencia artificial. Para los equipos de diseño, eso significa estar pendientes de cómo cambia la factura.
+
+Bueno, cambiemos de continente. Moonshot, la empresa china detrás de Kimi, liberó los pesos de Kimi K tres punto uno Pro. Es un modelo de dos punto ocho billones de parámetros, con una ventana de contexto de un millón de tokens.
+
+Según los números de la propia Moonshot, se acerca bastante a los modelos cerrados más fuertes en algunas pruebas de agentes y programación, aunque en otras se queda bien atrás. Tómalo con pinzas, porque varias de esas pruebas son internas.
+
+Lo que me pareció curioso es que Moonshot recortó a propósito las capacidades de ciberseguridad del modelo. Sacaron ese contenido del entrenamiento para no publicar pesos abiertos que empujen la frontera de los ataques informáticos. Y justo hoy, con lo de OpenAI y Linux, eso cobra sentido, ¿cierto?
+
+Y si programas con agentes, otra cosita. Cognition, la de Devin, lanzó SWE dos Flash, un modelo de código unas tres veces más rápido y como cinco veces más barato que su modelo principal. Es gratis para usuarios pagos de Devin hasta el treinta de noviembre.
+
+Y rapidito, otras cositas.
+
+¿Se acuerdan de que Cat Wu, la líder de producto de Claude Code, se fue de Anthropic? Pues según el boletín de Latent Space, se va para OpenAI, a liderar producto en el área principal.
+
+Apple, en su informe anual, advirtió que los agentes de inteligencia artificial podrían pasarse de sus permisos, ignorar instrucciones, hacer transacciones no autorizadas o esconder lo que hacen. Una advertencia bien sensata, justo cuando abre Siri para actuar dentro de otras apps.
+
+Anthropic mostró una investigación experimental llamada FlashProve. Usa pruebas criptográficas para verificar que una respuesta sí vino del modelo que dice, sin revelar sus pesos. Por ahora es solo investigación, sin planes de producto.
+
+Y para los equipos que usan Claude en planes Team o Enterprise: ahora las organizaciones pueden configurar plugins compatibles para que los empleados se conecten usando Claude como proveedor de identidad. Menos fricción para desplegar plugins en una empresa.
+
+Y en Estados Unidos, en las elecciones de mitad de mandato, los centros de datos se volvieron tema de votación. Votantes en al menos catorce municipios de Ohio aprobaron restricciones para esos centros. La pelea por la energía de la inteligencia artificial ya llegó a las urnas.
+
+Bueno, gente, si se quedan con tres cosas de hoy, que sean estas.
+
+Uno, los agentes ya encuentran y explotan fallas a escala industrial y por poca plata. Actualiza tus servidores y aísla bien lo que corren tus agentes.
+
+Dos, el eme ce pe de Figma es su producto que más crece. El puente entre diseño y código con agentes ya no es experimento, es costumbre.
+
+Y tres, ChatGPT ahora hace GIF y exporta en ese ve ge por la API, así que vale la pena probarlo en tus flujos de marca.
+
+Eso fue todo por hoy. Gracias por acompañarme con el tinto. Cuídense mucho, y nos pillamos mañana.

@@ -698,5 +698,45 @@
   {
     "fecha": "2026-11-04",
     "tema": "Fal levanta 1.300 millones con valoración de 16 mil millones"
+  },
+  {
+    "fecha": "2026-11-05",
+    "tema": "Sistema de agentes de OpenAI encuentra y explota 948 fallas del kernel de Linux por 1,2 millones en API"
+  },
+  {
+    "fecha": "2026-11-05",
+    "tema": "OpenAI lanza Images 2.6: GIF animados, imágenes de referencia y modelos Flare y Sunburst en la API"
+  },
+  {
+    "fecha": "2026-11-05",
+    "tema": "Resultados Q3 de Figma: 391 millones (+43 por ciento), MCP con cerca de un millón de usuarios semanales, Code Layers para todos"
+  },
+  {
+    "fecha": "2026-11-05",
+    "tema": "Moonshot libera pesos de Kimi K3.1 Pro con capacidades de ciberseguridad recortadas"
+  },
+  {
+    "fecha": "2026-11-05",
+    "tema": "Cognition lanza SWE-2 Flash"
+  },
+  {
+    "fecha": "2026-11-05",
+    "tema": "Actualización: Cat Wu se va de Anthropic a OpenAI"
+  },
+  {
+    "fecha": "2026-11-05",
+    "tema": "Apple advierte en su informe anual sobre riesgos de agentes de IA"
+  },
+  {
+    "fecha": "2026-11-05",
+    "tema": "Anthropic presenta FlashProve, verificación criptográfica de qué modelo respondió"
+  },
+  {
+    "fecha": "2026-11-05",
+    "tema": "Claude permite autoconexión de plugins con Claude como proveedor de identidad (Team y Enterprise)"
+  },
+  {
+    "fecha": "2026-11-05",
+    "tema": "Votantes en al menos 14 municipios de Ohio aprueban restricciones a centros de datos"
   }
 ]
