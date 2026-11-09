@@ -148,5 +148,15 @@
     "duracion": 428,
     "guion_sha": "87583f7dcd44",
     "motor": "azure"
+  },
+  {
+    "fecha": "2026-11-09",
+    "titulo": "Semana del 2 al 8 de noviembre: la IA acelera a Anthropic, GPT-6 Cyber y los centros de datos pierden en las urnas",
+    "descripcion": "METR dice que la IA casi duplicó el ritmo de Anthropic, OpenAI lanza GPT-6 Cyber, los centros de datos pierden en las elecciones de Estados Unidos, Google recula con los colegios, y novedades de Figma, Gemini Omni, agentes y GitHub.",
+    "url": "https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-11-09.mp3",
+    "bytes": 6080409,
+    "duracion": 868,
+    "guion_sha": "9ab75fa53608",
+    "motor": "azure"
   }
 ]
