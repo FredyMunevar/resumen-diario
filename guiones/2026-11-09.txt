@@ -1,0 +1,111 @@
+¡Qué más, gente! Bienvenidos a El Tinto Tech, el resumen semanal de tecnología, diseño e inteligencia artificial. Hoy es lunes nueve de noviembre, y repasamos todo lo que pasó del lunes dos al domingo ocho de noviembre.
+
+Fue una semana movida. Hubo elecciones en Estados Unidos que le pegaron duro a los centros de datos, un informe externo que dice que Anthropic está avanzando el doble de rápido, un modelo de OpenAI hecho solo para ciberseguridad, y una pelea entre Google y los colegios. Además, novedades en Figma, en GitHub y un montón de agentes nuevos. Sírvanse el tinto y arrancamos.
+
+Empecemos por la que más me puso a pensar. El jueves, METR, una organización independiente que evalúa modelos de IA, publicó su revisión de Anthropic. La pregunta era sencilla, pero pesada: ¿la IA ya está acelerando la propia investigación de Anthropic?
+
+Según METR, sí. Calculan que los modelos de Anthropic están mejorando más o menos uno punto nueve veces más rápido que antes. El cambio de ritmo lo ubican alrededor de octubre del año pasado.
+
+¿Y de dónde sale esa aceleración? METR estima que cerca del ochenta por ciento viene de la propia IA. Pero ojo con el matiz: casi todo es la IA ayudando a la gente a programar y analizar experimentos, no la IA haciendo proyectos de investigación completos sola.
+
+Ahora, lo curioso. Anthropic tenía un argumento de que todavía estaba por debajo del umbral de dos veces, que es una línea importante en su política de seguridad. METR dijo que ese argumento era exagerado y que cruzar el umbral es plausible, aunque la mayoría de investigadores de ambos lados creen que todavía no se ha cruzado.
+
+Y hay otro detalle que generó ruido. El informe completo tenía unas cien páginas, pero Anthropic tachó la mayoría de la evidencia que METR consideraba más reveladora. Anthropic dice que es para proteger información confidencial. METR, por su parte, dijo que eso obliga al público a confiar en su criterio más de lo ideal.
+
+¿Se acuerdan de que la semana pasada contamos que Anthropic advirtió en sus papeles para salir a bolsa que podría acercarse pronto a la auto mejora recursiva? Pues este informe le pone números a esa conversación. Y hablando de la bolsa, según CNBC, Anthropic arrancaría esta misma semana su gira con inversionistas, el paso previo a fijar el precio de la acción.
+
+Bueno, pasemos a OpenAI. ¿Se acuerdan del experimento de agentes que encontró casi mil fallas en el núcleo de Linux? Pues el modelo detrás de eso ya tiene nombre: GPT seis Cyber, un modelo especializado en ciberseguridad.
+
+Está pensado para que equipos autorizados encuentren fallas y escriban ataques de prueba para defender sus sistemas. OpenAI dice que también ayudó a encontrar ochenta y una fallas graves en Firefox que nadie conocía.
+
+En un benchmark de explotación de fallas sacó cuarenta y ocho punto cinco por ciento, contra treinta y dos punto uno de su versión anterior. Y según OpenAI, se queda dentro de los límites de la tarea autorizada casi el cien por ciento de las veces. Eso sí, son cifras de la propia empresa, así que tómalo con pinzas.
+
+Como OpenAI lo calificó como de riesgo crítico, el acceso es muy limitado. Por ahora solo lo tienen algunos clientes seleccionados de su programa de seguridad, a través de la API y de Codex.
+
+Y en la misma línea, Google DeepMind contó que agentes de IA guiados por humanos encontraron dos debilidades en el cifrado RSA de mil veinticuatro bits, uno de los sistemas viejos de cifrado. Una de esas debilidades permitiría falsificar firmas digitales.
+
+La buena noticia es que las llaves de dos mil cuarenta y ocho bits o más siguen siendo seguras. La tarea para los equipos de sistemas es clara: busquen si tienen llaves viejas de mil veinticuatro todavía en producción, y cámbienlas. Imagínate la semana: OpenAI con Linux y Firefox, DeepMind con el cifrado. La IA se volvió una herramienta seria para encontrar huecos.
+
+Ahora sí, la noticia política de la semana. El martes hubo elecciones de mitad de mandato en Estados Unidos, y los centros de datos para IA salieron muy mal parados.
+
+¿Se acuerdan de que contamos que en Ohio varios municipios aprobaron restricciones? Pues fue mucho más grande. Según la firma Redbud Consulting, se aprobaron restricciones en cuarenta y cuatro de cuarenta y cinco votaciones locales que ya tenían resultado.
+
+En Edgewater, Florida, más del setenta y siete por ciento votó por prohibir centros de datos nuevos. Y en Ashville, Ohio, más del ochenta y uno por ciento rechazó un acuerdo para construir dos.
+
+En las elecciones grandes también se notó. En Texas, Gina Hinojosa le ganó la gobernación a Greg Abbott, prometiendo frenar la construcción y acabar con los beneficios tributarios a estos centros. Y en Georgia ganó Keisha Lance Bottoms, que hizo campaña con una pausa estatal.
+
+¿Y los mercados? El jueves el Nasdaq llegó a estar once por ciento por debajo de su máximo histórico, por el miedo a que se frene la construcción de infraestructura para IA. Morgan Stanley dijo que el resultado de Texas era el más importante para el sector.
+
+OpenAI reaccionó rápido. Su directora financiera, Sarah Friar, dijo que van a seguir invirtiendo, y la empresa prometió dejar de exigir acuerdos de confidencialidad a los funcionarios públicos cuando negocian dónde construir.
+
+Y un dato del fin de semana, que todavía hay que tomar con pinzas. Según el Financial Times, Anthropic habría acordado pagar unos tres mil cuatrocientos millones de dólares por generadores a gas que producen uno punto siete gigavatios. Ninguna de las empresas lo había confirmado. Así que la pelea por la energía sigue, con o sin votantes de acuerdo.
+
+Bueno, cambiemos de tema, pero no del todo, porque esta también tiene a la gente brava. Google anunció el martes que los colegios que usan sus herramientas educativas perderían el acceso al buscador, a menos que activaran sus funciones de IA.
+
+La reacción fue inmediata. El senador Bernie Sanders lo llamó extorsión, y el alcalde de Nueva York, Zohran Mamdani, dijo que ninguna empresa debería decidir cómo se educa a los niños. Muchos profesores temen que los resúmenes con IA les hagan las tareas a los estudiantes.
+
+¿Cómo terminó? Google echó para atrás a medias. Ahora Gemini, sus cuadernos y el buscador vienen apagados por defecto, y cada colegio puede activar el buscador sin activar Gemini. Pero hay un pero: el buscador sigue trayendo los resúmenes con IA, y por ahora no hay una opción oficial para quitarlos. Algunos distritos ya están usando extensiones para esconderlos.
+
+Y rapidito, una más de Anthropic. Claude estrenó Finanzas Personales, en beta, para suscriptores pagos en Estados Unidos. Conectas tus cuentas bancarias a través de Plaid, y le preguntas en qué se te fue la plata, qué cuentas vienen o si hay movimientos raros.
+
+Lo importante: el acceso es solo de lectura. No puede mover tu plata ni invertir, y Claude nunca ve la contraseña del banco. Además, esas conversaciones no se usan para entrenar modelos. Es la respuesta directa a la función parecida que ya tenía ChatGPT.
+
+Ahora, la semana de los agentes que no duermen. Si construyes con agentes, esto te interesa, porque ya no se trata del chat que responde, sino de compañeros que trabajan en segundo plano.
+
+Perplexity lanzó Teammates, agentes que funcionan las veinticuatro horas. Manejan varias tareas a la vez, vigilan cambios y colaboran entre ellos, y tú puedes revisar o corregir lo que están haciendo. Por ahora es solo para el plan Max, que cuesta doscientos dólares al mes.
+
+Meta, por su lado, le dio voz y cara a Muse, su asistente. Ahora puedes hablar con él en tiempo real, interrumpirlo, y ver un avatar que reacciona con gestos y expresiones. Hay cientos de voces y está en Estados Unidos, en el celular, en la web y en Mac. Además estrenó espacios, una función para crear módulos tipo mini aplicación dentro de Muse.
+
+Mistral amplió su plataforma Studio con agentes administrados y aplicaciones que se conectan a los sistemas de las empresas. La idea es que una compañía tenga control total de modelos, datos e infraestructura, incluso en sus propios servidores, algo que prometen para finales de noviembre.
+
+Y Cursor ahora deja que su agente en la nube construya y publique aplicaciones web completas, con base de datos y autenticación incluidas, a partir de lo que le pidas en lenguaje natural. Eso sí, primero corre revisiones de seguridad, y tú tienes que aprobar antes de publicar.
+
+En la misma línea para desarrolladores, OpenAI compró Pierre Computer Company, un equipo pequeñito de San Francisco que hace Code Storage, una capa de infraestructura para Git. Codex ya usaba dos librerías abiertas de ellos, Trees y Diffs, que van a seguir siendo de código abierto. No dijeron cuánto pagaron.
+
+Rapidito, en modelos abiertos. Thinking Machines, la empresa de Mira Murati, presentó Inkling dos Small, un modelo de quinientos noventa y cuatro mil millones de parámetros, con unos diecisiete mil millones activos por respuesta. Por ahora se usa a través de su plataforma Tinker, y prometen liberar los pesos después de más pruebas de seguridad. Y Baidu soltó ERNIE cinco punto cinco Flash Base, un modelo abierto en versión base, para que los desarrolladores lo afinen a su gusto.
+
+Bueno, pasemos al diseño. Para los que hacen video y contenido de marca, Google lanzó Gemini Omni uno punto dos Flash, su modelo para generar y editar video.
+
+Ahora los clips duran hasta quince segundos, antes eran diez. Y puedes editarlos conversando: cambiar el producto, el fondo, la luz o el formato con instrucciones de seguimiento. Además bajó el precio un treinta por ciento, a siete centavos de dólar por segundo en setecientos veinte pe. O sea, un clip completo de quince segundos sale como en un dólar. Nada mal.
+
+Y en Figma hubo varias cositas chéveres esta semana. El agente de Figma ahora genera ilustraciones e íconos vectoriales que se pueden editar de verdad, ajustar a un estilo o animar. Eso es clave, porque una ilustración generada que no puedes tocar sirve de poco en un sistema de diseño.
+
+También llegó una herramienta para seleccionar una parte de una imagen y aislarla o borrarla. Los sombreadores ahora se exportan en mayor resolución y directo a capas de código. Y cuando el agente convierte tus pantallas en una capa de código, ahora lee las conexiones del prototipo y las interacciones entre pantallas.
+
+Ojo con esto último, porque es justo el puente entre diseño y código que todos estamos buscando. Si el agente entiende cómo navega el prototipo, el código que sale ya trae la lógica de la experiencia, no solo las pantallas sueltas.
+
+Y un recordatorio corto: mañana martes arranca Adobe MAX en Miami Beach, hasta el jueves. Seguro el próximo lunes tenemos bastante que contar de Photoshop, Premiere y Firefly.
+
+Ahora, una de branding que me pareció bien curiosa. La oficina de derechos de autor de Estados Unidos confirmó que el escudo café y dorado de UPS no se puede registrar con derechos de autor.
+
+¿Por qué? Porque, según la junta de revisión, combina formas geométricas conocidas, un degradado convencional y letras comunes, y eso no es lo bastante creativo. UPS argumentó que hubo muchas decisiones creativas detrás, y la junta respondió algo que todo diseñador debería escuchar: el derecho de autor protege el resultado, no el esfuerzo. Eso sí, el logo sigue protegido como marca registrada, que es otra figura.
+
+Y de paso, felicitaciones a Brand New, el blog de identidades de marca de UnderConsideration, que cumplió veinte años esta semana. Imagínate cuántos rediseños han reseñado en dos décadas.
+
+Pasemos al desarrollo web, con una que es urgente. GitHub va a bloquear por defecto el evento pull request target en todos los repositorios públicos a partir del dos de diciembre.
+
+¿Por qué importa? Porque ese evento corre con los permisos y los secretos del repositorio principal, y si un flujo ejecuta código de un fork que no es de confianza, te pueden robar los secretos o comprometer el pipeline.
+
+Y ojo, que hay pruebas de bloqueo antes de esa fecha. Hoy mismo, nueve de noviembre, y el lunes dieciséis, de cuatro a seis de la tarde hora universal, que son de once de la mañana a una de la tarde en Colombia, los flujos afectados van a fallar. Así que revisa en Insights cuáles se verían bloqueados, y si de verdad los necesitas, permítelos con una política explícita.
+
+Y rapidito, otras cositas de GitHub: Copilot llegó en vista previa al asistente integrado de Xcode, y la integración de GitHub con Slack y Teams ya está disponible para todos, para manejar issues y pull requests desde el chat.
+
+Y vamos cerrando con la actualidad general. Un grupo de congresistas republicanos le pidió a Jensen Huang, el jefe de Nvidia, que dé una sesión a puerta cerrada el dieciocho de noviembre. ¿El motivo? Reportes de que se reunió con una ejecutiva de Megaspeed, una empresa de Singapur, que sería una agente de inteligencia china.
+
+Nvidia no dijo si Huang va a asistir. Solo explicó que a sus clientes de nube les comparte información de negocio común, no secretos comerciales. Esta historia la vamos a seguir, porque mezcla chips, China y seguridad nacional.
+
+También en Estados Unidos, el Departamento de Justicia creó una fuerza de tarea llamada Super Intelligence. Va a coordinar las investigaciones contra el uso ilegal de IA por parte de gobiernos extranjeros, organizaciones criminales y estafadores, y absorbe al grupo que ya existía para litigios de IA.
+
+Y en carros, Elon Musk anunció que Tesla va a dejar de fabricar la Cybertruck hacia mediados de dos mil veintisiete, para hacerle espacio a la producción del Cybercab, su taxi autónomo. Seguirán dando repuestos y servicio. Después de tanta expectativa desde dos mil diecinueve, la camioneta no alcanzó a durar cuatro años en producción.
+
+Y un último dato para los que trabajan en contenido y SEO. USA Today culpó en parte a la búsqueda con IA por la caída de su tráfico y de sus ingresos digitales, después de un tercer trimestre flojo. Otro medio grande que se suma a la lista.
+
+Bueno, gente, si se quedan con tres cosas de esta semana, que sean estas.
+
+Primera: la IA ya está acelerando la propia investigación en IA, y un evaluador externo dice que en Anthropic va casi al doble de velocidad, aunque buena parte de la evidencia quedó tachada.
+
+Segunda: la ciberseguridad cambió de escala. Con GPT seis Cyber y lo de DeepMind con el cifrado, encontrar fallas se volvió barato y rápido, así que actualizar, aislar agentes y revisar llaves viejas ya no es opcional. Y si tienes repos públicos, revisa hoy mismo tus flujos con pull request target.
+
+Tercera: la gente empezó a votar sobre la IA. Los centros de datos perdieron en casi todas las urnas, y Google tuvo que echar para atrás con los colegios. La tecnología va rápido, pero la licencia social no está garantizada.
+
+Eso fue todo por esta semana. Gracias por acompañarnos con el tinto. Cuídense mucho, compartan el episodio con ese parcero que construye con agentes, y nos pillamos el próximo lunes.
