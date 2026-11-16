@@ -834,5 +834,89 @@
   {
     "fecha": "2026-11-09",
     "tema": "USA Today culpa a la búsqueda con IA por caída de tráfico"
+  },
+  {
+    "fecha": "2026-11-16",
+    "tema": "Actualización: Jensen Huang renuncia a Nvidia tras escándalo de relaciones (presunta espía de Megaspeed y ejecutiva); Colette Kress CEO interina, Harvey Jones presidente de junta"
+  },
+  {
+    "fecha": "2026-11-16",
+    "tema": "Actualización: Anthropic fija rango de 70 a 78 dólares por acción; cotizaría en Nasdaq como ANT el 19 de noviembre; proveedores de cómputo compran 26 mil millones"
+  },
+  {
+    "fecha": "2026-11-16",
+    "tema": "Anthropic lanza Claude Fable 5.2 y Mythos 5.2, 20 por ciento más baratos; guía de prompting sobre dueño del código"
+  },
+  {
+    "fecha": "2026-11-16",
+    "tema": "Anthropic presenta Claude Meetings en beta para Google Meet (Team y Enterprise)"
+  },
+  {
+    "fecha": "2026-11-16",
+    "tema": "Actualización: Gemini 4 Carbon abierto a API paga y AI Ultra; precio se duplica el 1 de diciembre; /swarm en Antigravity"
+  },
+  {
+    "fecha": "2026-11-16",
+    "tema": "Google lanza Gemini 4 Hydrogen, sucesor de Flash, y el Orquestador en Antigravity"
+  },
+  {
+    "fecha": "2026-11-16",
+    "tema": "Google lanza Gemini Decisions API"
+  },
+  {
+    "fecha": "2026-11-16",
+    "tema": "OpenAI lanza ChatGPT Wallet para compras de agentes con pagos tokenizados y Commerce Partner Playbook"
+  },
+  {
+    "fecha": "2026-11-16",
+    "tema": "OpenAI presenta Daybreak Red Team y Daybreak Defense Factory en Cyber at the Frontier"
+  },
+  {
+    "fecha": "2026-11-16",
+    "tema": "OpenAI lanza Businesses in ChatGPT y Business Hub; retirará voz Estándar y Avanzada el 11 de diciembre"
+  },
+  {
+    "fecha": "2026-11-16",
+    "tema": "Adobe MAX 2026: Firefly AI Assistant, Firefly Builder, agentes siempre activos, MCP local para Photoshop, Illustrator, Premiere y After Effects"
+  },
+  {
+    "fecha": "2026-11-16",
+    "tema": "Figma Motion agrega resortes físicos y vista previa de Lottie"
+  },
+  {
+    "fecha": "2026-11-16",
+    "tema": "Starship vuelo 15: primera captura de la nave desde órbita; propulsor perdido en el golfo"
+  },
+  {
+    "fecha": "2026-11-16",
+    "tema": "Node.js publica actualizaciones de seguridad con 16 fallas (7 altas) para 22, 24 y 26"
+  },
+  {
+    "fecha": "2026-11-16",
+    "tema": "Firefox 160 con reconocimiento de voz en el dispositivo en 40 idiomas"
+  },
+  {
+    "fecha": "2026-11-16",
+    "tema": "Flutter 3.50 y Dart 3.14: interoperabilidad nativa estable y WebAssembly en Safari y Firefox"
+  },
+  {
+    "fecha": "2026-11-16",
+    "tema": "Meta lanza Muse Ember"
+  },
+  {
+    "fecha": "2026-11-16",
+    "tema": "Actualización: Thinking Machines libera pesos de Inkling 2 Small con licencia Apache"
+  },
+  {
+    "fecha": "2026-11-16",
+    "tema": "DeepSeek agrega búsqueda web, archivos, OCR y voz a su API"
+  },
+  {
+    "fecha": "2026-11-16",
+    "tema": "Google DeepMind presenta AlphaGenome 2"
+  },
+  {
+    "fecha": "2026-11-16",
+    "tema": "UE adopta reglas comunes para sandboxes regulatorios de IA (Reglamento 2026/2487)"
   }
 ]

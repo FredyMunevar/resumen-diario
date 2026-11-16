@@ -1,0 +1,119 @@
+¡Buenas, buenas, gente! Bienvenidos a El Tinto Tech, el resumen semanal de tecnología, diseño e inteligencia artificial. Hoy es lunes dieciséis de noviembre, y les traigo lo que pasó del lunes nueve al domingo quince de noviembre.
+
+Y qué semana, parceros. El jefe de Nvidia renunció en medio de un escándalo, y Anthropic ya le puso precio a su salida a bolsa. Salieron modelos nuevos de Anthropic y de Google. ChatGPT ahora tiene billetera para que sus agentes compren por ti. Y Adobe se fue con todo hacia los agentes en su evento MAX. Además, un cohete que volvió del espacio y lo agarraron con unos brazos gigantes. Sírvanse el tinto, que hay bastante.
+
+Arranquemos por la que más ruido hizo. ¿Se acuerdan de que la semana pasada contamos que unos congresistas de Estados Unidos le pedían explicaciones a Jensen Huang por su relación con una presunta espía de una empresa llamada Megaspeed? Pues la historia escaló a una velocidad impresionante.
+
+El domingo nueve, Huang admitió que le había sido infiel a su esposa y pidió disculpas a su familia y a los empleados. La junta de Nvidia dijo que lo respaldaba, pero abrió una investigación independiente por los reportes de que la inteligencia china lo había tenido en la mira.
+
+El miércoles, Reuters y el New York Times reportaron una segunda relación, esta vez con una alta ejecutiva que le reportaba directamente a él. Ahí ya no hubo vuelta atrás. Ese mismo día la junta aceptó su renuncia, y el jueves doce Nvidia lo hizo oficial.
+
+Imagínate el tamaño de esto. Huang fundó Nvidia y la dirigió durante treinta y tres años. La convirtió en la empresa que vende los chips sobre los que corre casi toda la IA del mundo. Y se va de un día para otro, también de la junta directiva.
+
+Quien queda al mando, de forma interina, es Colette Kress, la directora financiera desde dos mil trece. Ella sigue siendo también la jefa de finanzas. Y por primera vez en su historia, Nvidia tiene un presidente de junta separado: Harvey Jones, que está en la junta desde mil novecientos noventa y tres y va a liderar la búsqueda del reemplazo.
+
+En la bolsa, la acción llegó a caer cerca de doce por ciento el jueves. Contando desde el viernes anterior, según TechCrunch, se borraron más de ochocientos cincuenta mil millones de dólares en valor. Y arrastró a otras empresas de infraestructura de IA, como CoreWeave y Nebius.
+
+Eso sí, ojo con el matiz. Hasta ahora no hay evidencia pública de que Huang haya ayudado a sabiendas a China, ni de que se hayan filtrado secretos de la empresa. La junta dice que no tiene razones para creer que la seguridad nacional se comprometió. Y mañana martes Nvidia presenta resultados, así que va a ser una semana para no despegarse de las noticias.
+
+Bueno, pasemos a la otra gran historia financiera: la salida a bolsa de Anthropic. Ya les veníamos contando lo de los papeles que radicaron ante el regulador. Esta semana llegó lo concreto: Anthropic fijó el rango de precio de su acción entre setenta y setenta y ocho dólares.
+
+Van a ofrecer unos ochocientos veinticinco millones de acciones. En la parte alta del rango, eso serían unos sesenta y cuatro mil millones de dólares. Según CNBC, el precio final se fijaría el miércoles dieciocho, y la acción empezaría a cotizar en el Nasdaq el jueves diecinueve de noviembre, con el símbolo ANT.
+
+Y aquí viene lo que me pareció más curioso. Siete proveedores de cómputo se comprometieron a comprar acciones por veintiséis mil millones de dólares, al mismo precio de la salida. Google y Nvidia, unos diez mil millones cada uno. AMD, unos dos mil quinientos. Y Broadcom, Micron, Microsoft y TSMC completan el resto.
+
+O sea, las mismas empresas que le venden chips y nube a Anthropic ahora van a ser sus accionistas. ¿Es eso un voto de confianza o un círculo cerrado? Seguro hay de las dos. Lo que sí, va a ser una de las salidas a bolsa más grandes de la historia, y la vamos a seguir de cerca.
+
+Y Anthropic no solo estuvo en modo bolsa. El lunes nueve lanzó dos modelos nuevos: Claude Fable cinco punto dos y Claude Mythos cinco punto dos. Por debajo son el mismo modelo, pero con distintas protecciones de seguridad.
+
+Fable está disponible para todo el mundo. Mythos, en cambio, solo para organizaciones verificadas de ciberseguridad y ciencias de la vida, porque es muy bueno encontrando fallas de seguridad. Los clientes empresariales pueden usar esa capacidad a través de Claude Security, sin pasar por la verificación.
+
+Lo más chévere es el precio. Bajó un veinte por ciento: ahora son ocho dólares por millón de tokens de entrada y cuarenta de salida. Y según Anthropic, las respuestas salen hasta un treinta por ciento más rápido.
+
+En programación, Anthropic dice que Fable cinco punto dos subió de treinta y dos a cuarenta y nueve por ciento en una prueba difícil de código. Y Mythos encontró casi el noventa por ciento de un listado de vulnerabilidades ya conocidas. Eso sí, son cifras de la propia empresa, así que tómalo con pinzas.
+
+Y un dato que les va a servir a los que construyen con agentes. En la guía para escribirle a Fable, que Simon Willison destacó, Anthropic cuenta que el modelo se fija mucho en quién es el dueño del código. Si no le dices nada, o le das a entender que el código es de otra persona, tiende a agregar cosas sin tocar la estructura, aunque duplique código.
+
+Pero si en el prompt le dices algo como: eres el dueño y quien mantiene este código a largo plazo, el diseño depende de ti, el comportamiento cambia. En sus pruebas, la consolidación de código duplicado pasó de menos del diez por ciento a cerca del setenta y cinco. Una sola frase. Nada mal, ¿no?
+
+Y Anthropic también presentó Claude Meetings, en beta para planes de equipo y empresa. Básicamente, metes a Claude a una videollamada de Google Meet como un participante más, visible para todos. Va siguiendo la conversación, responde preguntas en el chat y, mientras ustedes hablan, va armando planes, cronogramas y documentos.
+
+La idea es que la IA ya no solo tome notas, sino que adelante el trabajo mientras la reunión sigue. Por ahora es solo Google Meet, pero dicen que vendrán otras plataformas. Para los que viven en reuniones, esto puede cambiar bastante la dinámica.
+
+Bueno, ahora vamos con Google, que también tuvo semana cargada. ¿Se acuerdan de Gemini cuatro Carbon, el modelo que Google lanzó a finales de octubre solo para equipos de ciberseguridad? Pues desde el martes diez ya lo pueden usar los desarrolladores que pagan la API, las empresas y los suscriptores de Google AI Ultra.
+
+Ojo con el precio. Hasta el treinta de noviembre cuesta dos dólares por millón de tokens de entrada y diez de salida. Pero desde el primero de diciembre se duplica, a cuatro y veinte. Así que si lo vas a probar, este es el momento.
+
+Y junto con Carbon llegó algo bien interesante para los que trabajan con agentes: el comando swarm, en vista previa, dentro de Antigravity, el entorno de programación de Google. Un agente coordinador lanza varios agentes trabajadores, cada uno en su propia copia del repositorio, y otro agente verifica, corre las pruebas y revisa los cambios.
+
+Lo bacano es que puedes asignar un modelo distinto a cada tarea. Por ejemplo, Carbon para lo complejo y modelos más livianos para cambios de rutina. Eso sí, el mismo equipo de Google advierte que estos sistemas de muchos agentes se comen el cupo de uso mucho más rápido que un chat normal.
+
+Y el jueves doce llegó el hermano rápido: Gemini cuatro Hydrogen. Es el sucesor de la línea Flash, pensado para código y agentes. Cuesta un dólar con cincuenta por millón de tokens de entrada y siete con cincuenta de salida, y maneja un contexto de un millón de tokens.
+
+Según Google, termina las tareas dos veces y media más rápido que Flash. Y lo bueno es que llega a todo el mundo: la API, la app de Gemini y el buscador, incluso para usuarios gratuitos a través de la selección automática de modelo.
+
+Además, Google presentó un Orquestador en Antigravity, que va saltando entre Carbon y Hydrogen dentro de la misma sesión: Carbon para planear y Hydrogen para ejecutar y verificar. Google dice que así se gasta casi una cuarta parte menos de cupo. Otra vez, cifra de la casa.
+
+Bueno, pasemos a OpenAI, que esta semana se enfocó en dos frentes: plata y seguridad. El viernes trece lanzó ChatGPT Wallet, una billetera para que sus agentes, que ellos llaman dots, puedan comprar por ti.
+
+¿Cómo funciona? Agregas tu tarjeta una vez. Cuando el agente va a pagar, no usa el número real de la tarjeta, sino un token, una especie de número sustituto. Ni el agente ni la tienda ven tus datos. Y antes de cada compra revisas los productos y el total, y apruebas con la cara o con la huella.
+
+Por ahora es solo para algunos suscriptores de ChatGPT Pro en Estados Unidos, mayores de edad y con tarjetas Visa, Mastercard o American Express de allá. Y OpenAI ya dijo que viene más: límites de gasto y reglas por categoría, para que el agente pueda hacer ciertas compras más solo.
+
+Y ojo, que esto también es para los que tienen negocios. OpenAI publicó una guía para que las tiendas se preparen para recibir compras hechas por agentes. Dato curioso: Amazon, el minorista más grande, todavía bloquea a los agentes de IA. Veremos cuánto le dura.
+
+El otro frente fue la ciberseguridad. El jueves, en un evento llamado Cyber at the Frontier, OpenAI presentó dos productos con la marca Daybreak. El primero, Daybreak Red Team, pone varios agentes a atacar tu aplicación web como si fueran hackers, para encontrar fallas y comprobarlas.
+
+El segundo, Daybreak Defense Factory, hace el trabajo contrario. Toma esas fallas, rastrea el problema en el código y redacta el parche. Pero ojo: no lo despliega solo. Un ingeniero tiene que revisarlo, probarlo y aprobar el pull request. Red Team está en acceso anticipado, y Defense Factory es un plugin en vista previa dentro de ChatGPT.
+
+Y rapidito, dos cositas más de OpenAI. Lanzó en beta un espacio para que los negocios reclamen su perfil dentro de ChatGPT. Ahí pueden ver cuántas veces los mencionan y hasta crear su propio agente, por ahora en Estados Unidos. Y anunció que el once de diciembre retira los modos de voz Estándar y Avanzado de ChatGPT.
+
+Bueno, cambiemos de tema y hablemos de diseño, porque esta semana fue Adobe MAX, el gran evento de Adobe. Y el mensaje fue clarísimo: Adobe se fue con todo hacia los agentes.
+
+La estrella fue el asistente de IA de Firefly, en beta, impulsado por lo que llaman el Adobe Creative Agent. Tiene un modo de planeación y un selector de modelos. Y Adobe también mostró agentes que están siempre encendidos, recogiendo contexto de tu trabajo para ofrecerte acciones rápidas, como quitar un fondo o generar la miniatura de un video.
+
+Para los que diseñan producto, ojo con esto: Firefly Builder. Convierte ideas escritas en lenguaje natural en prototipos interactivos, como sitios web, presentaciones o apps, sin código. Está en beta privada, y varios medios lo leyeron como un golpe directo a Figma.
+
+Y la que más les interesa a los que construyen con servidores eme ce pe. Adobe lanzó integraciones eme ce pe locales, en vista previa, para que agentes externos como ChatGPT, Claude o Gemini editen archivos nativos de Photoshop, Illustrator, Premiere y After Effects. Y lo mejor: las capas, secuencias y composiciones quedan editables.
+
+En las apps de siempre también hubo novedades. Photoshop estrena reiluminación de fotos y un reestilizado generativo con controles deslizantes. Premiere trae un nuevo modo de color. Lightroom tiene una herramienta para abrir los ojos de quien salió parpadeando. Esa me encantó. Y InDesign estrena coedición en beta.
+
+Además, Firefly sigue sumando modelos de terceros, como los de Google, OpenAI, Kling, ByteDance y ElevenLabs, y ahora los de Topaz Labs, para mejorar y limpiar imágenes. Eso sí, Adobe no dio fechas de disponibilidad general para casi nada. Mucha beta y mucha vista previa.
+
+Y ya que estamos en diseño, rapidito: Figma agregó a sus herramientas de animación los resortes basados en física, para afinar mejor los movimientos, y la opción de previsualizar archivos Lottie antes de exportarlos. Un cambio pequeño, pero muy útil para los que hacen motion en producto.
+
+Bueno, pasemos a algo que no es IA, pero que me pareció espectacular. El viernes trece, SpaceX lanzó el vuelo quince de Starship desde Texas. La nave llegó a órbita y soltó veintiséis satélites Starlink de nueva generación.
+
+Y aquí viene lo histórico. Al día siguiente, después de unas veintidós horas y media de misión, la nave volvió a la base y la torre de lanzamiento la atrapó con sus brazos mecánicos. Es la primera vez que atrapan a una Starship que regresa de órbita. ¿Se imaginan ver eso en vivo?
+
+Eso sí, no salió perfecto. El propulsor, el cohete de abajo, canceló su aproximación a la torre, se desvió al mar y se perdió en el golfo de México. SpaceX dice que el sistema lo desvió como estaba diseñado, porque estaba fuera de las condiciones para la captura. La causa todavía se investiga.
+
+Bueno, vamos con los que programan. Lo más importante de la semana: Node.js sacó actualizaciones de seguridad el miércoles once, para las versiones veintidós, veinticuatro y veintiséis. Son dieciséis fallas, siete de ellas graves.
+
+La más delicada: un cliente sin autenticar podía hacer que un servidor HTTPS devolviera pedazos de memoria en las respuestas. Según el aviso, eso podría exponer hasta llaves privadas. Hay otras que permiten tumbar servidores con HTTP dos. Así que, si tienes Node en producción, actualiza hoy mismo. En serio.
+
+Firefox ciento sesenta salió el martes diez. Lo más llamativo: el reconocimiento de voz de la Web Speech API ahora funciona dentro del propio computador, en cuarenta idiomas, sin mandar el audio a la nube. Por ahora solo en escritorio.
+
+Y Google lanzó Flutter tres punto cincuenta, con la interoperabilidad nativa directa ya estable y la opción de compilar a WebAssembly en Safari y Firefox recientes. Ojo: las librerías de Material y Cupertino que venían incluidas quedan obsoletas y pasan a paquetes separados.
+
+Y ahora, rapidito, otras cositas de IA que vale la pena tener en el radar. Meta lanzó Muse Ember, su modelo más pequeño y eficiente, pensado para llamar herramientas y analizar documentos largos, a diez centavos de dólar por millón de tokens de entrada.
+
+¿Se acuerdan de Inkling dos Small, de Thinking Machines? Pues ya liberaron los pesos, con licencia Apache, después de sus pruebas de seguridad. DeepSeek agregó a su API búsqueda web, lectura de archivos y de enlaces, reconocimiento de texto en imágenes y voz.
+
+Google DeepMind presentó AlphaGenome dos, que predice cómo una variación en el ADN afecta a distintos tipos de células. Lo entrenaron con más de ciento siete millones de perfiles de células, y es gratis para investigación sin fines comerciales. Y Google también lanzó una API para que Gemini tome hasta mil decisiones de sí o no en una sola pasada, muy barata.
+
+Y en regulación, la Unión Europea adoptó las reglas comunes para los entornos de prueba de IA supervisados. Los países tienen hasta agosto de dos mil veintisiete para montarlos, y las empresas pequeñas pueden entrar gratis. Eso sí, participar no equivale a que te aprueben el producto.
+
+Y para cerrar, un bloque cortico de búsqueda y SEO. Lo de los perfiles de negocios en ChatGPT que les conté hace un momento es, en la práctica, una ficha de negocio al estilo Google, pero dentro de ChatGPT. Se puede conectar el catálogo de productos y ver menciones y clics al sitio web.
+
+Si sumas eso con la billetera para que los agentes compren, el mensaje es claro. Si tienes un negocio en línea, ya no basta con aparecer en Google. Ahora también toca pensar en cómo te ven y cómo te compran los agentes.
+
+Bueno, gente, si se quedan con tres cosas de esta semana, que sean estas.
+
+Primera: la industria de la IA vivió un terremoto de liderazgo. Jensen Huang salió de Nvidia en cuestión de días, justo cuando Anthropic se prepara para salir a bolsa el jueves con sus propios proveedores como accionistas. Dinero, chips y poder están más amarrados que nunca.
+
+Segunda: los agentes ya trabajan en equipo y con plata. Swarm de Google, Claude metido en las reuniones, la billetera de ChatGPT y los agentes de Adobe apuntan a lo mismo. El siguiente paso no es un chat más listo, sino agentes que hacen cosas por ti. Y con eme ce pe, entrando a herramientas como Photoshop.
+
+Tercera: los modelos son más baratos y más rápidos, pero ojo con la letra pequeña. Carbon duplica su precio en diciembre, los enjambres de agentes se comen el cupo, y una sola frase en tu prompt puede cambiar cómo trabaja el modelo. Vale la pena medir antes de casarse con uno.
+
+Eso fue todo por esta semana. Gracias por acompañarnos con el tinto. Actualicen ese Node, cuídense mucho, compartan el episodio con ese parcero que anda construyendo con agentes, y nos pillamos el próximo lunes.
