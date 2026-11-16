@@ -158,5 +158,15 @@
     "duracion": 868,
     "guion_sha": "9ab75fa53608",
     "motor": "azure"
+  },
+  {
+    "fecha": "2026-11-16",
+    "titulo": "Semana del 9 al 15 de noviembre: Jensen Huang deja Nvidia, Anthropic fija precio para su salida a bolsa y ChatGPT estrena billetera",
+    "descripcion": "Renuncia Jensen Huang en Nvidia, Anthropic fija el rango de su salida a bolsa y lanza Claude Fable y Mythos cinco punto dos, Google abre Gemini cuatro Carbon y lanza Hydrogen, OpenAI estrena ChatGPT Wallet y Daybreak, Adobe MAX apuesta por agentes y eme ce pe, y Starship atrapa su nave desde órbita.",
+    "url": "https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-11-16.mp3",
+    "bytes": 7029438,
+    "duracion": 1004,
+    "guion_sha": "5c22a5784f91",
+    "motor": "azure"
   }
 ]
