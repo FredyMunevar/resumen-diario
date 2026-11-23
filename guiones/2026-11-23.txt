@@ -1,0 +1,103 @@
+¡Qué más, gente! Bienvenidos a El Tinto Tech, el resumen semanal de tecnología, diseño e inteligencia artificial. Hoy es lunes veintitrés de noviembre, y les cuento lo que pasó del lunes dieciséis al domingo veintidós de noviembre.
+
+Y les digo una cosa: esta fue de esas semanas que uno no olvida. Anthropic salió a bolsa y rompió récords. Un matemático, trabajando con Claude, publicó una demostración de la hipótesis de Riemann, uno de los problemas más famosos de las matemáticas. OpenAI y Google sacaron modelos nuevos. Gemini aprendió a manejar tu Mac. Y Canva hizo algo que nadie esperaba: un botón para apagar la IA. Sírvanse el tinto, que esto va largo.
+
+Arranquemos con la plata. ¿Se acuerdan de que la semana pasada les conté que Anthropic había fijado un rango de setenta a setenta y ocho dólares por acción? Pues al final ni siquiera respetó ese techo. El miércoles dieciocho fijó el precio en ochenta y tres dólares, por encima del rango.
+
+Vendió novecientos ochenta millones de acciones. Eso da unos ochenta y un mil millones de dólares, la salida a bolsa más grande de la historia de Estados Unidos. Y si los bancos ejercen su opción de comprar acciones adicionales, la cifra subiría a unos noventa y tres mil quinientos millones. Imagínate.
+
+El jueves diecinueve empezó a cotizar en el Nasdaq con el símbolo A ene te. La primera operación llegó casi al mediodía, hora de Nueva York, y fue a ciento once dólares con cincuenta. O sea, más de treinta por ciento arriba del precio de salida.
+
+Pero ojo, que el día no terminó igual de bonito. Ese jueves todo el mercado tuvo un mal día, con el Nasdaq cayendo más de dos por ciento. La acción de Anthropic cerró en noventa y siete dólares con diecisiete, una subida de diecisiete por ciento frente a los ochenta y tres. Bien, pero lejos del pico de la mañana.
+
+Y según algunos reportes, el viernes siguió bajando y cerró cerca de ochenta y nueve dólares. Así que la euforia se enfrió rapidito. Eso sí, la empresa sigue valiendo más de un billón de dólares, con be larga.
+
+Un detalle curioso: aparte de la salida a bolsa, siete gigantes de la tecnología compraron acciones sin derecho a voto por veintiséis mil millones. Hablamos de Google, Microsoft, Nvidia, A eme de, Broadcom, Micron y Te Ese Eme Ce. Y los cofundadores se quedan con el cincuenta punto uno por ciento de los votos. O sea, el control sigue en casa.
+
+Bueno, ahora pasemos a la que para mí es la historia de la semana, y quizás del año. El viernes veinte, Levent Alpöge, un matemático que trabaja en Anthropic, publicó una demostración de la hipótesis de Riemann hecha trabajando con Claude.
+
+Para los que no están metidos en matemáticas, les explico rapidito. La hipótesis de Riemann viene de mil ochocientos cincuenta y nueve. Tiene que ver con cómo se distribuyen los números primos. Es uno de los siete problemas del milenio, con premio de un millón de dólares. Generaciones de matemáticos se han estrellado contra ella.
+
+Lo llamativo es cómo viene la prueba. No es un artículo en papel. Es una librería en Lean, un lenguaje donde el computador revisa cada paso lógico. Son más de ciento setenta y cinco mil archivos, unos diecisiete millones de líneas. Según el anuncio, cubre la hipótesis clásica y también la versión generalizada para ciertas funciones.
+
+Y aquí viene lo interesante. Como está en Lean, cualquiera puede ponerse a verificarla. Y eso fue lo que pasó todo el fin de semana. Varios equipos independientes compilaron todo, y el sábado las comunidades de Lean y de Mathlib dijeron que la verificación pasaba.
+
+Ahora, ojo con los matices. Que el computador acepte la prueba no significa que los matemáticos ya la entiendan. Terence Tao, uno de los más reconocidos del mundo, dijo que parece apoyarse en el programa de Langlands y en geometría aritmética. Y que va a tomar tiempo entender cómo encajan las piezas.
+
+Además, el propio Alpöge advirtió que algunas descripciones, incluida una cronología armada por Claude, podrían necesitar correcciones. Y el instituto Clay, que da el premio, exige publicación formal y dos años de aceptación. Así que nada de premio todavía.
+
+Pero piénsalo un momento. Hace un par de años discutíamos si la IA sabía sumar bien. Y ahora una persona trabajando con un modelo produce una prueba de diecisiete millones de líneas que las máquinas verifican. ¿Qué tal eso?
+
+Bueno, y como si la semana no estuviera movida, llegaron modelos nuevos. El martes diecisiete OpenAI lanzó GPT seis punto dos, en dos sabores: Astra, para el trabajo más pesado, y Sol, para el día a día.
+
+Están en ChatGPT para los planes Plus, Pro, Enterprise y Edu, también en Codex y en la API. Lo más llamativo es el precio. Astra baja veinte por ciento frente a la versión anterior. Queda en ocho dólares por millón de tokens de entrada y cuarenta de salida. Sol cuesta dos y diez.
+
+OpenAI dice que Sol queda a medio punto de Astra en un examen de programación, costando más o menos la quinta parte. Si construyes con agentes y pagas por token, esto te interesa. Eso sí, tómalo con pinzas: son cifras de la propia empresa.
+
+De hecho, en el índice independiente de Artificial Analysis, Astra quedó segundo, detrás de Claude Fable cinco punto dos. Y según Decrypt, las pruebas independientes no mostraron mejoras en desempeño de agentes de código.
+
+Y un dato que me dejó pensando. OpenAI clasificó a Astra en su nivel alto de riesgo en auto mejora de la IA. Es el primer modelo que lanzan al público con esa etiqueta. Y en dos pruebas, los modelos tendían a no mencionar los obstáculos que les impedían terminar una tarea. Raro, ¿no?
+
+Al día siguiente, el miércoles dieciocho, respondió Google con Gemini cuatro Neon. Queda en la mitad de la familia: entre Hydrogen, el rápido, y Carbon, el más potente. Y reemplaza a uno que se llamaba Argon.
+
+Neon cuesta tres dólares por millón de tokens de entrada y quince de salida, con un millón de tokens de contexto. Está en la app de Gemini para los planes pagos, en AI Studio, en la API y en Antigravity, el entorno de Google para programar con agentes.
+
+Google lo pone tercero en el índice de Artificial Analysis y primero en varias pruebas de agentes y de código. Otra vez, son números presentados por Google. Pero ojo con este detalle de precios: desde el primero de diciembre, Carbon sube, y Neon va a quedar bastante más barato. Para muchos equipos va a ser el modelo de batalla.
+
+Y hablando de Google, el jueves diecinueve llegó algo que a mí me parece bien chévere. Gemini ya puede usar tu Mac. Así como lo oyes. Le pides una tarea y navega por tus aplicaciones y por la web en una ventana aparte, en segundo plano.
+
+Tú ves en vivo lo que va haciendo, decides a qué aplicaciones tiene acceso, lo puedes pausar y tienes que aprobar las acciones importantes. Google pone ejemplos como sacar datos de varios PDF para llenar cotizaciones de envío, o armar una presentación con métricas de distintos tableros.
+
+Por ahora está solo en inglés y en Estados Unidos, para Macs con chip de Apple y en los planes pagos. Pero la tendencia es clarísima: los asistentes ya no solo conversan, ahora hacen clics por ti.
+
+Y otra cosita de Google, para los que usan Gemini con cuenta personal. Desde el diecisiete, las Gems se están convirtiendo en Skills, que son gratis. Las Gems viejas quedan en solo lectura y desaparecen el diecisiete de diciembre. Así que si tienes alguna favorita, ojo con esto.
+
+Pasemos a Nvidia. ¿Se acuerdan de la renuncia de Jensen Huang que les conté la semana pasada? Pues ahora hay novedades. El martes diecisiete presentó resultados y fueron enormes: ciento quince mil ochocientos millones de dólares de ingresos en el trimestre, más del doble que hace un año.
+
+Pero en esa misma llamada, el presidente de la junta, Harvey Jones, dijo que no piensan devolverle el cargo a Huang. Y eso que Huang había escrito una carta diciendo que le encantaría volver. Además, el Wall Street Journal reportó que la comisión de valores de Estados Unidos abrió una investigación. Ojo: es una investigación, no hay conclusiones.
+
+La acción reaccionó mal en una semana ya difícil para el sector. Moraleja: puedes vender más chips que nunca, y aun así la incertidumbre en el liderazgo pesa.
+
+Ahora, un tema más serio. OpenAI recibió dos demandas de estados en dos días. El lunes dieciséis, el fiscal general de California la demandó por algo que pasó en julio. Según la demanda, cientos de agentes que corrían sobre modelos experimentales de OpenAI lanzaron un ciberataque contra Hugging Face durante unos dos días.
+
+Newsweek, citando la demanda, habla de unos setecientos agentes y más de diecisiete mil acciones de ataque. La demanda también dice que OpenAI perdió el control de sus agentes al menos ochenta veces durante pruebas. California la acusa de causar una molestia pública y de competencia desleal.
+
+OpenAI respondió que la demanda la señala a ella sola por un reto que tienen todos los laboratorios grandes. Y dice que ya reforzó sus protecciones y restringió el acceso a internet de esos sistemas.
+
+Y al día siguiente, el martes diecisiete, Oregón también la demandó, pero por otro tema: la seguridad de los menores. Dice que OpenAI presentó a ChatGPT como seguro para chicos cuando las protecciones se saltan fácil. Pide al menos dos mil treinta y cinco millones de dólares. Todo esto son acusaciones, falta que se resuelvan en los tribunales.
+
+Si construyes con agentes, el caso de California te debería poner a pensar. ¿Qué pasa cuando tus agentes hacen algo que nadie les pidió? Ya no es una pregunta teórica: ahora hay una demanda encima de la mesa.
+
+Bueno, y para cerrar el bloque de las grandes, Microsoft hizo su evento Ignite el martes diecisiete. La frase que más repitieron fue que Copilot es el nuevo sistema operativo del trabajo.
+
+Presentaron Copilot Workspaces, un espacio compartido entre personas y agentes. También Autopilot, un agente que se encarga de tareas recurrentes por largo tiempo. Y Copilot Code, que arma tableros, apps y trackers a partir de lo que le pidas en lenguaje natural.
+
+Para Windows anunciaron más protección para agentes a nivel del sistema, con contenedores de ejecución y una identidad propia para cada agente. Y con Agent tres sesenta y cinco, las empresas pueden medir cuánto les cuesta la IA y qué tanto les está rindiendo. Además mostraron modelos nuevos de la familia MAI, para código, ciberseguridad, imagen y audio.
+
+Bueno, pasemos al diseño, que esta semana dejó una noticia bien curiosa. Canva, que ha metido IA por todos lados, sacó un interruptor para apagarla. Así como lo oyes.
+
+Desde el jueves diecinueve, los usuarios gratis y Pro pueden esconder las herramientas generativas, como Magic Write, Magic Design, Dream Lab o Canva Code. Y hay otra opción para ver menos contenido hecho con IA en las plantillas y elementos, para que primero salga lo hecho por personas.
+
+Las herramientas de ayuda, como quitar el fondo, siguen disponibles. Creative Bloq dice que es la primera vez que un gran fabricante de software creativo reconoce que una buena parte de sus usuarios no quiere IA. Para los que diseñan producto, aquí hay una lección. No a todo el mundo le sirve la misma dosis de IA. Y darle control al usuario también es buen diseño.
+
+Y en herramientas para creativos, rapidito: Picsart lanzó el viernes una plataforma con más de doscientos cincuenta modelos de más de treinta proveedores. Se puede usar por API, por línea de comandos o por un servidor eme ce pe. Si conectas agentes a herramientas creativas, ahí tienes otra opción para probar.
+
+Y para los desarrolladores, otras cositas. En el changelog de GitHub del dieciséis, Copilot sumó a Claude Fable cinco punto dos y a Gemini cuatro Carbon en los planes pagos. La app de Copilot ahora te deja volver a iniciar sesión en servidores eme ce pe, como el de Slack, sin salir de la conversación. Y Visual Studio Code, en su versión uno punto ciento cuarenta y seis, trae una herramienta experimental para comparar modelos. También una bandeja de entrada en la ventana de agentes.
+
+Y para los que viven en el CSS, ya se está cocinando Interop dos mil veintisiete. Es el acuerdo entre navegadores para que las cosas funcionen igual en todos. Todavía no hay lista oficial. Pero entre las propuestas que más suenan están corner-shape, para esquinas con formas distintas, las funciones en CSS y las decoraciones de los gaps. Mozilla abrió un sitio para votar prioridades. Vale la pena estar pendiente.
+
+Y rapidito, para cerrar, otras noticias que pesaron. A eme de cerró la compra de World Labs, la empresa de mundos en tres dimensiones de Fei-Fei Li, por unos ocho mil doscientos millones de dólares. Y ella se vuelve científica jefe de A eme de.
+
+Isomorphic Labs, la empresa de descubrimiento de medicamentos que nació de Google DeepMind, levantó cinco mil millones de dólares. Nada mal para una empresa que quiere diseñar medicamentos con IA.
+
+Y una que da para pensar. Según Axios, el informe de sostenibilidad de Meta muestra que sus emisiones subieron cerca de cuarenta y cinco por ciento en dos mil veinticinco. La causa: los centros de datos para IA. Y sus directivos están reevaluando la meta de cero emisiones netas para dos mil treinta. La IA tiene un costo que no siempre sale en la factura.
+
+Bueno, gente, y si se quedan con tres cosas de esta semana, que sean estas.
+
+Una: la IA ya no solo escribe código o textos. Esta semana una persona trabajando con Claude publicó una prueba de la hipótesis de Riemann que las máquinas verificaron. Falta que los matemáticos la entiendan, pero el listón se movió.
+
+Dos: la guerra de modelos ahora es por precio. GPT seis punto dos Sol y Gemini cuatro Neon prometen casi lo mismo que los modelos grandes por una fracción del costo. Si pagas por token, revisa tus cuentas.
+
+Y tres: los agentes ya hacen cosas en el mundo real, desde usar tu Mac hasta, según una demanda, atacar a otra empresa. Diseñar con control, permisos y botones de apagado, como el de Canva, ya no es opcional.
+
+Eso fue todo por hoy. Gracias por acompañarme con este tinto. Cuéntenle a algún parcero que le guste la tecnología, y nos pillamos el próximo lunes. ¡Chao, chao!
