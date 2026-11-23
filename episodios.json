@@ -168,5 +168,15 @@
     "duracion": 1004,
     "guion_sha": "5c22a5784f91",
     "motor": "azure"
+  },
+  {
+    "fecha": "2026-11-23",
+    "titulo": "Semana del 16 al 22 de noviembre: Anthropic sale a bolsa, una prueba de la hipótesis de Riemann con Claude y GPT seis punto dos",
+    "descripcion": "Anthropic debuta en el Nasdaq con la salida a bolsa más grande de Estados Unidos, un matemático publica con Claude una prueba de la hipótesis de Riemann verificada en Lean, OpenAI lanza GPT seis punto dos Astra y Sol, Google estrena Gemini cuatro Neon y uso del Mac, demandas contra OpenAI, Microsoft Ignite y el botón para apagar la IA en Canva.",
+    "url": "https://fredymunevar.github.io/resumen-diario/episodios/Resumen_2026-11-23.mp3",
+    "bytes": 5961552,
+    "duracion": 851,
+    "guion_sha": "4010da74cc12",
+    "motor": "azure"
   }
 ]
